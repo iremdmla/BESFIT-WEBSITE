@@ -1,0 +1,1192 @@
+{
+  "kategoriler": [
+    "Kardiyo",
+    "Karın",
+    "Sırt",
+    "Kalça",
+    "Bacak",
+    "Göğüs",
+    "Omuz",
+    "Kol",
+    "Esneme"
+  ],
+  "kaloriFormulu": "Kalori = MET x 3.5 x Kilo(kg) x Süre(dk) / 200",
+  "egzersizler": [
+    {
+      "id": 1,
+      "isim": "Jumping Jacks",
+      "kategori": "Kardiyo",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Full Body"
+      ],
+      "met": 8.0,
+      "aciklama": "Kalp atış hızını artıran yağ yakıcı temel kardiyo egzersizi."
+    },
+    {
+      "id": 2,
+      "isim": "High Knees",
+      "kategori": "Kardiyo",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Bacak",
+        "Karın"
+      ],
+      "met": 8.5,
+      "aciklama": "Yerinde koşu hareketi ile nabzı hızlı artırır."
+    },
+    {
+      "id": 3,
+      "isim": "Butt Kicks",
+      "kategori": "Kardiyo",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Arka Bacak"
+      ],
+      "met": 7.5,
+      "aciklama": "Arka bacak esnekliğini artırır ve yağ yakımını destekler."
+    },
+    {
+      "id": 4,
+      "isim": "Mountain Climbers",
+      "kategori": "Kardiyo",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Karın",
+        "Omuz",
+        "Bacak"
+      ],
+      "met": 10.0,
+      "aciklama": "Tüm vücudu çalıştıran güçlü kardiyo hareketi."
+    },
+    {
+      "id": 5,
+      "isim": "Burpee",
+      "kategori": "Kardiyo",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Full Body"
+      ],
+      "met": 12.0,
+      "aciklama": "Yoğun kardiyo ve güç egzersizidir, hızlı yağ yakımı sağlar."
+    },
+    {
+      "id": 6,
+      "isim": "Skater Hop",
+      "kategori": "Kardiyo",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Bacak",
+        "Kalça"
+      ],
+      "met": 9.0,
+      "aciklama": "Yanlara doğru sıçrayarak yapılan denge ve kardiyo çalışması."
+    },
+    {
+      "id": 7,
+      "isim": "Butt Bridge March",
+      "kategori": "Kardiyo",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Kalça",
+        "Arka Bacak"
+      ],
+      "met": 6.0,
+      "aciklama": "Kalça ve bel kaslarını çalıştıran temel aktivasyon egzersizi."
+    },
+    {
+      "id": 8,
+      "isim": "Shadow Boxing",
+      "kategori": "Kardiyo",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Omuz",
+        "Kollar",
+        "Karın"
+      ],
+      "met": 7.8,
+      "aciklama": "Boks vuruş simülasyonu ile yağ yakımı sağlar."
+    },
+    {
+      "id": 9,
+      "isim": "Jump Rope (İpsiz Atlama)",
+      "kategori": "Kardiyo",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Bacak",
+        "Baldır"
+      ],
+      "met": 11.0,
+      "aciklama": "İp olmadan yapılan zıplama egzersizi."
+    },
+    {
+      "id": 10,
+      "isim": "Sprint in Place",
+      "kategori": "Kardiyo",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Full Body"
+      ],
+      "met": 12.5,
+      "aciklama": "Yerinde en hızlı tempoda koşu, maksimum yağ yakımı sağlar."
+    },
+    {
+      "id": 11,
+      "isim": "Crunch",
+      "kategori": "Karın",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Karın"
+      ],
+      "met": 3.5,
+      "aciklama": "Temel karın sıkılaştırma egzersizidir."
+    },
+    {
+      "id": 12,
+      "isim": "Reverse Crunch",
+      "kategori": "Karın",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Alt Karın"
+      ],
+      "met": 3.8,
+      "aciklama": "Alt karın kaslarını hedefleyen etkili bir egzersizdir."
+    },
+    {
+      "id": 13,
+      "isim": "Bicycle Crunch",
+      "kategori": "Karın",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Karın",
+        "Oblik"
+      ],
+      "met": 8.2,
+      "aciklama": "Yan karın ve alt karın kaslarını aynı anda çalıştırır."
+    },
+    {
+      "id": 14,
+      "isim": "Plank",
+      "kategori": "Karın",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Core",
+        "Karın"
+      ],
+      "met": 3.3,
+      "aciklama": "Core kaslarını güçlendiren izometrik egzersizdir."
+    },
+    {
+      "id": 15,
+      "isim": "Side Plank",
+      "kategori": "Karın",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Oblik"
+      ],
+      "met": 3.8,
+      "aciklama": "Yan karın kaslarını çalıştırır ve denge geliştirir."
+    },
+    {
+      "id": 16,
+      "isim": "Russian Twist",
+      "kategori": "Karın",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Oblik",
+        "Karın"
+      ],
+      "met": 7.2,
+      "aciklama": "Bel çevresini inceltmeye yardımcı olur."
+    },
+    {
+      "id": 17,
+      "isim": "Leg Raises",
+      "kategori": "Karın",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Alt Karın"
+      ],
+      "met": 4.0,
+      "aciklama": "Alt karın kaslarını çalıştıran etkili bir egzersizdir."
+    },
+    {
+      "id": 18,
+      "isim": "Dead Bug",
+      "kategori": "Karın",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Core",
+        "Karın"
+      ],
+      "met": 2.8,
+      "aciklama": "Bel sağlığını destekleyen düşük yoğunluklu core egzersizidir."
+    },
+    {
+      "id": 19,
+      "isim": "Flutter Kicks",
+      "kategori": "Karın",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Alt Karın"
+      ],
+      "met": 6.5,
+      "aciklama": "Yağ yakımına yardımcı etkili karın egzersizidir."
+    },
+    {
+      "id": 20,
+      "isim": "V-Ups",
+      "kategori": "Karın",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Karın"
+      ],
+      "met": 8.5,
+      "aciklama": "Üst ve alt karın kaslarını aynı anda çalıştıran yoğun bir egzersizdir."
+    },
+    {
+      "id": 21,
+      "isim": "Superman Hold",
+      "kategori": "Sırt",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Alt Sırt",
+        "Bel"
+      ],
+      "met": 2.5,
+      "aciklama": "Bel ve sırt kaslarını güçlendiren izometrik egzersizdir."
+    },
+    {
+      "id": 22,
+      "isim": "Bird Dog",
+      "kategori": "Sırt",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Core",
+        "Alt Sırt"
+      ],
+      "met": 2.8,
+      "aciklama": "Core stabilitesini artırır ve sakatlanmayı önler."
+    },
+    {
+      "id": 23,
+      "isim": "Reverse Snow Angels",
+      "kategori": "Sırt",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Sırt",
+        "Omuz"
+      ],
+      "met": 3.5,
+      "aciklama": "Omuz ve sırt kaslarını güçlendiren etkili bir hareket."
+    },
+    {
+      "id": 24,
+      "isim": "Cobra Stretch",
+      "kategori": "Sırt",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Alt Sırt",
+        "Karın"
+      ],
+      "met": 2.0,
+      "aciklama": "Bel ve karın bölgesini esneterek rahatlatır."
+    },
+    {
+      "id": 25,
+      "isim": "Y Raise",
+      "kategori": "Sırt",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Üst Sırt",
+        "Omuz"
+      ],
+      "met": 3.2,
+      "aciklama": "Omuz hizasını düzelten duruş egzersizidir."
+    },
+    {
+      "id": 26,
+      "isim": "Hip Hinge",
+      "kategori": "Sırt",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Alt Sırt",
+        "Kalça"
+      ],
+      "met": 3.8,
+      "aciklama": "Kalça baskın hareket formunu öğreten temel egzersizdir."
+    },
+    {
+      "id": 27,
+      "isim": "Reverse Plank",
+      "kategori": "Sırt",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Bel",
+        "Arka Kol"
+      ],
+      "met": 4.0,
+      "aciklama": "Arka vücut zincirini güçlendiren geriye plank hareketidir."
+    },
+    {
+      "id": 28,
+      "isim": "Prone T Raise",
+      "kategori": "Sırt",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Sırt",
+        "Omuz"
+      ],
+      "met": 3.6,
+      "aciklama": "Sırt kaslarını güçlendiren duruş geliştirici hareket."
+    },
+    {
+      "id": 29,
+      "isim": "Arm Haulers",
+      "kategori": "Sırt",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Bel",
+        "Sırt"
+      ],
+      "met": 4.5,
+      "aciklama": "Tüm sırt hattını çalıştıran yüzme benzeri egzersizdir."
+    },
+    {
+      "id": 30,
+      "isim": "Bridge Reach Through",
+      "kategori": "Sırt",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Bel",
+        "Karın",
+        "Kalça"
+      ],
+      "met": 4.2,
+      "aciklama": "Core ve sırt gücünü artıran denge egzersizi."
+    },
+    {
+      "id": 31,
+      "isim": "Glute Bridge",
+      "kategori": "Kalça",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Kalça",
+        "Arka Bacak"
+      ],
+      "met": 3.5,
+      "aciklama": "Kalça kaslarını aktif hale getiren temel egzersizdir."
+    },
+    {
+      "id": 32,
+      "isim": "Single Leg Glute Bridge",
+      "kategori": "Kalça",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Kalça",
+        "Core"
+      ],
+      "met": 4.5,
+      "aciklama": "Kalçayı güçlendirirken denge geliştirir."
+    },
+    {
+      "id": 33,
+      "isim": "Donkey Kicks",
+      "kategori": "Kalça",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Kalça"
+      ],
+      "met": 3.8,
+      "aciklama": "Kalça kaslarını izole şekilde çalıştırır."
+    },
+    {
+      "id": 34,
+      "isim": "Fire Hydrant",
+      "kategori": "Kalça",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Kalça",
+        "Yan Kalça"
+      ],
+      "met": 3.9,
+      "aciklama": "Kalça yan kaslarını hedef alan etkili bir harekettir."
+    },
+    {
+      "id": 35,
+      "isim": "Hip Thrust",
+      "kategori": "Kalça",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Kalça",
+        "Arka Bacak"
+      ],
+      "met": 4.8,
+      "aciklama": "Kalçayı güçlendiren ileri seviye köprü hareketidir."
+    },
+    {
+      "id": 36,
+      "isim": "Glute Kickback Pulses",
+      "kategori": "Kalça",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Kalça"
+      ],
+      "met": 4.0,
+      "aciklama": "Kalça kaslarını küçük tekrarlarla çalıştırır."
+    },
+    {
+      "id": 37,
+      "isim": "Side Leg Raises",
+      "kategori": "Kalça",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Kalça",
+        "Yan Kalça"
+      ],
+      "met": 3.2,
+      "aciklama": "Kalça şeklini geliştirmeye yardımcı olur."
+    },
+    {
+      "id": 38,
+      "isim": "Bridge Hold",
+      "kategori": "Kalça",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Kalça",
+        "Arka Bacak"
+      ],
+      "met": 2.8,
+      "aciklama": "Kalça kas aktivasyonu için statik egzersizdir."
+    },
+    {
+      "id": 39,
+      "isim": "Glute Bridge March",
+      "kategori": "Kalça",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Kalça",
+        "Core"
+      ],
+      "met": 4.1,
+      "aciklama": "Kalça ve core kaslarını birlikte çalıştırır."
+    },
+    {
+      "id": 40,
+      "isim": "Wall Sit Glute Press",
+      "kategori": "Kalça",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Kalça",
+        "Bacak"
+      ],
+      "met": 5.0,
+      "aciklama": "Duvarda oturma pozisyonuyla glute sıkılaştırma egzersizi."
+    },
+    {
+      "id": 41,
+      "isim": "Bodyweight Squat",
+      "kategori": "Bacak",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Bacak",
+        "Kalça"
+      ],
+      "met": 5.0,
+      "aciklama": "Bacak gücünü ve dayanıklılığı artırır."
+    },
+    {
+      "id": 42,
+      "isim": "Sumo Squat",
+      "kategori": "Bacak",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "İç Bacak",
+        "Kalça"
+      ],
+      "met": 5.2,
+      "aciklama": "İç bacak ve kalça kaslarını daha fazla hedef alır."
+    },
+    {
+      "id": 43,
+      "isim": "Static Lunge",
+      "kategori": "Bacak",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Bacak",
+        "Kalça"
+      ],
+      "met": 5.5,
+      "aciklama": "Tek bacak denge ve güç gelişimi sağlar."
+    },
+    {
+      "id": 44,
+      "isim": "Walking Lunge",
+      "kategori": "Bacak",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Bacak",
+        "Kalça"
+      ],
+      "met": 6.0,
+      "aciklama": "Alt vücut gücü ve dengeyi geliştirir."
+    },
+    {
+      "id": 45,
+      "isim": "Bulgarian Split Squat",
+      "kategori": "Bacak",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Bacak",
+        "Kalça"
+      ],
+      "met": 6.8,
+      "aciklama": "Tek bacak gücünü artıran etkili bir egzersizdir."
+    },
+    {
+      "id": 46,
+      "isim": "Calf Raises",
+      "kategori": "Bacak",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Baldır"
+      ],
+      "met": 3.2,
+      "aciklama": "Baldır kaslarını güçlendiren basit ve etkili bir hareket."
+    },
+    {
+      "id": 47,
+      "isim": "Step Up (Platform Step)",
+      "kategori": "Bacak",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Bacak",
+        "Kalça"
+      ],
+      "met": 4.8,
+      "aciklama": "Basit bir yükselti kullanarak uygulanan adım egzersizidir."
+    },
+    {
+      "id": 48,
+      "isim": "Squat Pulse",
+      "kategori": "Bacak",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Bacak",
+        "Kalça"
+      ],
+      "met": 6.5,
+      "aciklama": "Kasları yakmaya yönelik kısa hareketli squat varyasyonu."
+    },
+    {
+      "id": 49,
+      "isim": "Jump Squat",
+      "kategori": "Bacak",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Bacak",
+        "Kalça"
+      ],
+      "met": 9.0,
+      "aciklama": "Patlayıcı kuvveti ve yağ yakımını artırır."
+    },
+    {
+      "id": 50,
+      "isim": "Side Lunge",
+      "kategori": "Bacak",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "İç Bacak",
+        "Kalça"
+      ],
+      "met": 5.7,
+      "aciklama": "İç bacak ve kalça kaslarını hedef alır."
+    },
+    {
+      "id": 51,
+      "isim": "Push-Up (Şınav)",
+      "kategori": "Göğüs",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Göğüs",
+        "Triceps",
+        "Omuz"
+      ],
+      "met": 7.0,
+      "aciklama": "Üst vücut güçlenmesi için temel egzersizdir."
+    },
+    {
+      "id": 52,
+      "isim": "Knee Push-Up (Diz Üstü Şınav)",
+      "kategori": "Göğüs",
+      "seviye": "Kolay",
+      "kasGrubu": [
+        "Göğüs",
+        "Triceps"
+      ],
+      "met": 5.0,
+      "aciklama": "Yeni başlayanlar için kolaylaştırılmış şınav varyasyonu."
+    },
+    {
+      "id": 53,
+      "isim": "Incline Push-Up",
+      "kategori": "Göğüs",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Üst Göğüs",
+        "Triceps"
+      ],
+      "met": 6.0,
+      "aciklama": "Eğimli yüzeyde yapılan şınav üst göğsü hedefler."
+    },
+    {
+      "id": 54,
+      "isim": "Decline Push-Up",
+      "kategori": "Göğüs",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Alt Göğüs",
+        "Omuz"
+      ],
+      "met": 8.0,
+      "aciklama": "Ayaklar yüksekte yapılan şınav alt göğsü çalıştırır."
+    },
+    {
+      "id": 55,
+      "isim": "Wide Push-Up",
+      "kategori": "Göğüs",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Göğüs"
+      ],
+      "met": 7.2,
+      "aciklama": "Geniş el pozisyonu göğüs kasını daha yoğun çalıştırır."
+    },
+    {
+      "id": 56,
+      "isim": "Diamond Push-Up",
+      "kategori": "Göğüs",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Göğüs",
+        "Triceps"
+      ],
+      "met": 8.5,
+      "aciklama": "Dar el açısıyla yapılan şınav triceps odaklıdır."
+    },
+    {
+      "id": 57,
+      "isim": "Explosive Push-Up",
+      "kategori": "Göğüs",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Göğüs",
+        "Omuz"
+      ],
+      "met": 10.5,
+      "aciklama": "Patlayıcı kuvvet ve kondisyon geliştiren ileri seviye şınav."
+    },
+    {
+      "id": 58,
+      "isim": "Archer Push-Up",
+      "kategori": "Göğüs",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Göğüs",
+        "Omuz"
+      ],
+      "met": 9.0,
+      "aciklama": "Tek kola yük bindiren zorlayıcı şınav varyasyonu."
+    },
+    {
+      "id": 59,
+      "isim": "Pseudo Planche Push-Up",
+      "kategori": "Göğüs",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Göğüs",
+        "Omuz",
+        "Triceps"
+      ],
+      "met": 11.0,
+      "aciklama": "Omuz ağırlıklı ve zorlu bir şınav hareketidir."
+    },
+    {
+      "id": 60,
+      "isim": "Hindu Push-Up",
+      "kategori": "Göğüs",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Göğüs",
+        "Omuz",
+        "Sırt"
+      ],
+      "met": 8.2,
+      "aciklama": "Esneklik kazandırırken göğüs ve omuzları çalıştırır."
+    },
+    {
+      "id": 61,
+      "isim": "Pike Push-Up",
+      "kategori": "Omuz",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Omuz",
+        "Triceps"
+      ],
+      "met": 7.8,
+      "aciklama": "Omuz gelişimi için etkili bir vücut ağırlığı egzersizi."
+    },
+    {
+      "id": 62,
+      "isim": "Shoulder Taps",
+      "kategori": "Omuz",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Omuz",
+        "Core"
+      ],
+      "met": 4.5,
+      "aciklama": "Denge ve stabiliteyi artıran omuz odaklı plank varyasyonu."
+    },
+    {
+      "id": 63,
+      "isim": "Arm Circles",
+      "kategori": "Omuz",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Omuz"
+      ],
+      "met": 3.2,
+      "aciklama": "Omuz ısınması ve esneklik için ideal bir egzersiz."
+    },
+    {
+      "id": 64,
+      "isim": "Plank to Downward Dog",
+      "kategori": "Omuz",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Omuz",
+        "Core"
+      ],
+      "met": 5.0,
+      "aciklama": "Omuz ve core kaslarını birlikte çalıştırır."
+    },
+    {
+      "id": 65,
+      "isim": "Wall Walks",
+      "kategori": "Omuz",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Omuz",
+        "Core"
+      ],
+      "met": 9.8,
+      "aciklama": "Zorlayıcı bir omuz egzersizi, denge gerektirir."
+    },
+    {
+      "id": 66,
+      "isim": "Handstand Hold (Duvar Destekli)",
+      "kategori": "Omuz",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Omuz",
+        "Core"
+      ],
+      "met": 8.5,
+      "aciklama": "Üst vücut denge ve kuvvetini artırır."
+    },
+    {
+      "id": 67,
+      "isim": "Dive Bomber Push-Up",
+      "kategori": "Omuz",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Omuz",
+        "Göğüs",
+        "Sırt"
+      ],
+      "met": 9.4,
+      "aciklama": "Esneklik ve güç geliştiren zorlu bir itiş egzersizi."
+    },
+    {
+      "id": 68,
+      "isim": "Inchworm Walkout",
+      "kategori": "Omuz",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Omuz",
+        "Arka Bacak"
+      ],
+      "met": 4.8,
+      "aciklama": "Omuz aktivasyonu ve core stabilitesi artırır."
+    },
+    {
+      "id": 69,
+      "isim": "Plank Up-Down",
+      "kategori": "Omuz",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Omuz",
+        "Triceps",
+        "Core"
+      ],
+      "met": 6.8,
+      "aciklama": "Denge, güç ve dayanıklılık geliştiren plank varyasyonu."
+    },
+    {
+      "id": 70,
+      "isim": "Shoulder Press Hold (Vücut Ağırlığı)",
+      "kategori": "Omuz",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Omuz"
+      ],
+      "met": 3.0,
+      "aciklama": "Omuz kaslarını izometrik olarak çalıştırır."
+    },
+    {
+      "id": 71,
+      "isim": "Triceps Dips (Sandalye Destekli)",
+      "kategori": "Kol",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Triceps"
+      ],
+      "met": 6.0,
+      "aciklama": "Arka kol kaslarını çalıştırır, evde yapılabilir."
+    },
+    {
+      "id": 72,
+      "isim": "Diamond Push-Up",
+      "kategori": "Kol",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Triceps",
+        "Göğüs"
+      ],
+      "met": 8.5,
+      "aciklama": "Triceps odaklı şınav varyasyonu."
+    },
+    {
+      "id": 73,
+      "isim": "Close Grip Push-Up",
+      "kategori": "Kol",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Triceps",
+        "Göğüs"
+      ],
+      "met": 7.0,
+      "aciklama": "Dar açıyla yapılan şınav arka kolu çalıştırır."
+    },
+    {
+      "id": 74,
+      "isim": "Bodyweight Triceps Extensions",
+      "kategori": "Kol",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Triceps"
+      ],
+      "met": 6.8,
+      "aciklama": "Eğimli yüzeye dayanarak yapılan triceps egzersizi."
+    },
+    {
+      "id": 75,
+      "isim": "Isometric Bicep Hold",
+      "kategori": "Kol",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Biceps"
+      ],
+      "met": 2.5,
+      "aciklama": "Direnç olmadan biceps kaslarını sıkılaştırır."
+    },
+    {
+      "id": 76,
+      "isim": "Towel Bicep Curl",
+      "kategori": "Kol",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Biceps"
+      ],
+      "met": 3.5,
+      "aciklama": "Havlu kullanarak yapılan ev tipi biceps egzersizi."
+    },
+    {
+      "id": 77,
+      "isim": "Bench Dip Walkout",
+      "kategori": "Kol",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Triceps"
+      ],
+      "met": 6.5,
+      "aciklama": "Triceps güçlenmesi için ilerici bir egzersizdir."
+    },
+    {
+      "id": 78,
+      "isim": "Triceps Kickbacks (Dirençsiz)",
+      "kategori": "Kol",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Triceps"
+      ],
+      "met": 3.0,
+      "aciklama": "Form çalışmaya yönelik düşük yoğunluklu triceps hareketi."
+    },
+    {
+      "id": 79,
+      "isim": "Decline Tricep Push-Up",
+      "kategori": "Kol",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Triceps"
+      ],
+      "met": 9.0,
+      "aciklama": "Gelişmiş triceps odaklı şınav hareketidir."
+    },
+    {
+      "id": 80,
+      "isim": "Reverse Plank Triceps Focus",
+      "kategori": "Kol",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Triceps",
+        "Omuz"
+      ],
+      "met": 5.8,
+      "aciklama": "Ters plank pozunda arka kolu vurgulayan egzersiz."
+    },
+    {
+      "id": 81,
+      "isim": "Burpee Tuck Jump",
+      "kategori": "Kardiyo",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Full Body"
+      ],
+      "met": 13.0,
+      "aciklama": "Yoğun patlayıcı güç isteyen yağ yakım egzersizi."
+    },
+    {
+      "id": 82,
+      "isim": "Jumping Lunges",
+      "kategori": "Kardiyo",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Bacak",
+        "Kalça"
+      ],
+      "met": 11.0,
+      "aciklama": "Alt vücut gücü ve kardiyovasküler kondisyonu artırır."
+    },
+    {
+      "id": 83,
+      "isim": "Plank Jacks",
+      "kategori": "Kardiyo",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Core",
+        "Full Body"
+      ],
+      "met": 8.0,
+      "aciklama": "Plank ile kardiyoyu birleştirir, yüksek yağ yakımı sağlar."
+    },
+    {
+      "id": 84,
+      "isim": "Mountain Climber Sprint",
+      "kategori": "Kardiyo",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Karın",
+        "Omuz"
+      ],
+      "met": 12.0,
+      "aciklama": "Klasik mountain climber'ın hızlı ve yoğun versiyonudur."
+    },
+    {
+      "id": 85,
+      "isim": "Lateral Shuffle",
+      "kategori": "Kardiyo",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Bacak",
+        "Kalça"
+      ],
+      "met": 7.5,
+      "aciklama": "Yanlara hızlı adımlarla yapılan kolay HIIT hareketi."
+    },
+    {
+      "id": 86,
+      "isim": "Sprint in Place Fast",
+      "kategori": "Kardiyo",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Full Body"
+      ],
+      "met": 12.5,
+      "aciklama": "Yerinde maksimum hızla koşu, yağ yakımını hızlandırır."
+    },
+    {
+      "id": 87,
+      "isim": "Skater Jump Touchdown",
+      "kategori": "Kardiyo",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Bacak",
+        "Kalça"
+      ],
+      "met": 9.5,
+      "aciklama": "Yanlara geniş atlayarak yapılan yoğun HIIT egzersizi."
+    },
+    {
+      "id": 88,
+      "isim": "Heisman Drill",
+      "kategori": "Kardiyo",
+      "seviye": "Orta",
+      "kasGrubu": [
+        "Full Body"
+      ],
+      "met": 10.0,
+      "aciklama": "Hız, çeviklik ve yağ yakımı odaklı spor egzersizi."
+    },
+    {
+      "id": 89,
+      "isim": "Toe Taps (Yüksek Tempo)",
+      "kategori": "Kardiyo",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Bacak"
+      ],
+      "met": 7.2,
+      "aciklama": "Küçük bir platformla yapılan basit HIIT çalışması."
+    },
+    {
+      "id": 90,
+      "isim": "High Knee Sprint",
+      "kategori": "Kardiyo",
+      "seviye": "İleri",
+      "kasGrubu": [
+        "Bacak",
+        "Core"
+      ],
+      "met": 11.8,
+      "aciklama": "Yüksek tempoda diz çekme koşusu, güçlü yağ yakıcıdır."
+    },
+    {
+      "id": 91,
+      "isim": "Hamstring Stretch",
+      "kategori": "Esneme",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Arka Bacak"
+      ],
+      "met": 2.0,
+      "aciklama": "Hamstring kaslarını uzatarak esnekliği artırır."
+    },
+    {
+      "id": 92,
+      "isim": "Quad Stretch",
+      "kategori": "Esneme",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Ön Bacak"
+      ],
+      "met": 2.0,
+      "aciklama": "Ön bacak kaslarını esnetir ve rahatlatır."
+    },
+    {
+      "id": 93,
+      "isim": "Child's Pose",
+      "kategori": "Esneme",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Bel",
+        "Sırt"
+      ],
+      "met": 1.5,
+      "aciklama": "Yoga dinlenme pozudur, omurga esnekliğini artırır."
+    },
+    {
+      "id": 94,
+      "isim": "Cat-Cow Stretch",
+      "kategori": "Esneme",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Bel",
+        "Sırt"
+      ],
+      "met": 2.2,
+      "aciklama": "Omurgayı rahatlatan mobilite egzersizidir."
+    },
+    {
+      "id": 95,
+      "isim": "Hip Flexor Stretch",
+      "kategori": "Esneme",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Kalça",
+        "Bacak"
+      ],
+      "met": 2.2,
+      "aciklama": "Kalça ön kaslarını açmaya yardımcı olur."
+    },
+    {
+      "id": 96,
+      "isim": "Seated Forward Fold",
+      "kategori": "Esneme",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Arka Bacak",
+        "Bel"
+      ],
+      "met": 2.1,
+      "aciklama": "Hamstring ve bel bölgesini uzatır."
+    },
+    {
+      "id": 97,
+      "isim": "Cobra Stretch",
+      "kategori": "Esneme",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Bel",
+        "Karın"
+      ],
+      "met": 2.0,
+      "aciklama": "Bel ve karın bölgesini açan rahatlatıcı esneme."
+    },
+    {
+      "id": 98,
+      "isim": "Figure 4 Stretch",
+      "kategori": "Esneme",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Kalça"
+      ],
+      "met": 2.0,
+      "aciklama": "Kalça kaslarını esnetir ve bel gerginliğini azaltır."
+    },
+    {
+      "id": 99,
+      "isim": "Butterfly Stretch",
+      "kategori": "Esneme",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "İç Bacak"
+      ],
+      "met": 1.8,
+      "aciklama": "İç bacak kaslarını esneten oturma pozisyonudur."
+    },
+    {
+      "id": 100,
+      "isim": "Neck Stretch",
+      "kategori": "Esneme",
+      "seviye": "Başlangıç",
+      "kasGrubu": [
+        "Boyun"
+      ],
+      "met": 1.2,
+      "aciklama": "Boyun gerginliğini azaltır, rahatlama sağlar."
+    }
+  ]
+}

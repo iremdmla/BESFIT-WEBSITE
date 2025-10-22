@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BESFIT Dashboard ve Yemek Takip</title>
+    
+    <style>
+        /* CSS Değişkenleri ve Temel Stiller */
+        :root {
+            --dark-blue: #004d99;
+            --sidebar-bg: #e6e6e6;
+            --card-bg: white;
+            --text-color: #333;
+            --accent-main: #2a9d8f; /* Ana Aksan Rengi */
+            --accent-light: #52e3cf; /* Açık Aksan Rengi (Bitti butonu) */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: var(--text-color);
+            min-height: 100vh;
+        }
+
+        /* Ortak Görünüm Kontrolü */
+        .view-container {
+            display: none; 
+            width: 100%;
+        }
+        /* Başlangıçta sadece app-layout active olacak */
+        .view-container.active {
+            display: flex;
+        }
+        
+        /* Layout Yapısı */
+        .app-layout {
+            height: 100%;
+        }
+
+        /* ----------------------- SABİT BÖLÜMLER ----------------------- */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            background-color: var(--dark-blue);
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+            z-index: 1000;
+        }
+        .header img { height: 35px; margin-right: 10px; }
+        .header-profile { 
+            position: absolute; 
+            right: 20px; 
+            width: 30px; 
+            height: 30px; 
+            background: white; 
+            border-radius: 50%; 
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 60px; 
+            left: 0;
+            width: 200px;
+            height: calc(100vh - 60px); 
+            background-color: var(--sidebar-bg);
+            padding-top: 20px;
+            box-sizing: border-box;
+            z-index: 999;
+        }
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 20px;
+            cursor: pointer;
+            color: var(--text-color);
+            text-decoration: none;
+            transition: background-color 0.2s;
+            font-size: 15px;
+        }
+
+        .menu-item:hover, .menu-item.active {
+            background-color: #d1d1d1;
+            font-weight: bold;
+        }
+        .menu-item span { margin-right: 10px; font-size: 18px; }
+
+        .app-content {
+            margin-left: 200px; 
+            padding: 80px 20px 20px 20px;
+            width: calc(100% - 200px);
+            box-sizing: border-box;
+            flex-grow: 1;
+        }
+
+        /* ----------------------- DASHBOARD STİLLERİ ----------------------- */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            grid-gap: 20px;
+            width: 100%;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            min-height: 120px;
+        }
+        .card-title {
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        /* Dashboard'a ait tüm diğer kart stilleri (Donut, Makro çubuk, Su) önceki yanıtlardan gelir. */
+        
+        /* Makro Besin Çubukları */
+        .macro-item { margin-bottom: 15px; }
+        .progress-bar { background-color: #ddd; border-radius: 5px; height: 10px; margin-top: 5px; }
+        .progress-fill { height: 100%; border-radius: 5px; background-color: var(--accent-main); transition: width 0.5s ease-in-out; }
+        
+        /* Su Takipçisi */
+        .water-tracker { display: flex; align-items: center; justify-content: space-around; height: 100px; }
+        .water-count { font-size: 3em; font-weight: bold; color: var(--dark-blue); }
+        .glasses-container { display: flex; align-items: flex-end; }
+        .water-glass {
+            width: 25px; height: 40px; background-color: #ccc; 
+            border-radius: 0 0 5px 5px; margin: 0 3px; cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .water-glass.filled { background-color: var(--dark-blue); }
+
+
+        /* ----------------------- DAILY FOOD STİLLERİ ----------------------- */
+        #yemekEklemeSayfasi .app-content {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .yemek-sol-kolon {
+            width: 300px;
+            min-width: 300px;
+        }
+        .ogun-card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.1em;
+            font-weight: bold;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+        .ogun-actions span {
+            display: inline-flex; width: 28px; height: 28px; align-items: center; justify-content: center;
+            border-radius: 50%; color: white; cursor: pointer; margin-left: 5px;
+            background-color: var(--accent-light);
+        }
+        .ogun-actions span:nth-child(2) { background-color: #ccc; } /* Gri kamera ikonu */
+
+        .bitti-button {
+            width: 100%; padding: 15px; background-color: var(--accent-light);
+            color: var(--dark-blue); border: none; border-radius: 25px;
+            cursor: pointer; font-size: 1.2em; font-weight: bold; margin-top: 20px;
+        }
+        
+        .yemek-sag-kolon { flex-grow: 1; min-width: 350px; }
+        .arama-kutusu {
+            width: 100%; padding: 12px 15px; background-color: var(--sidebar-bg);
+            border-radius: 8px; border: none; font-size: 1.1em; margin-bottom: 20px;
+        }
+        .sonuc-kapsayici { background-color: var(--sidebar-bg); border-radius: 8px; min-height: 400px; padding: 15px; }
+        
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <img src="BESFIT_LOGO_Kucuk.png" alt="BESFIT Logo">
+        <span>BESFIT</span>
+        <div class="header-profile"></div>
+    </header>
+
+    <div id="anaSayfa" class="view-container app-layout active">
+        <nav class="sidebar">
+            <a href="#" class="menu-item active" data-target="anaSayfa"><span>🏠</span> Ana Sayfa</a>
+            <a href="#" class="menu-item" data-target="yemekEklemeSayfasi"><span>➕</span> Günlük Yemek</a>
+            <a href="#" class="menu-item" data-target="egzersizSayfasi"><span>🏃</span> Egzersiz</a>
+            <a href="#" class="menu-item" data-target="tarihSayfasi"><span>📅</span> Tarih</a>
+            <a href="#" class="menu-item" data-target="ayarlarSayfasi"><span>⚙️</span> Ayarlar</a>
+        </nav>
+        
+        <div class="app-content">
+            <p style="font-size: 1.2em; margin: 0 0 20px 0; font-weight: bold;">Bunu Biliyor Muydunuz?</p>
+            <div class="dashboard-grid">
+                
+                <div class="card" style="grid-column: span 2;">
+                    <div class="card-title">Özet</div>
+                    <div style="display: flex; justify-content: space-around; align-items: center;">
+                        <div style="text-align: center;"><div>852</div><small>Aldığın Kalori</small></div>
+                        <div style="width: 100px; height: 100px; border-radius: 50%; background: conic-gradient(var(--accent-main) 75%, #ccc 0%); text-align: center; line-height: 100px; font-weight: bold;">1852</div>
+                        <div style="text-align: center;"><div>852</div><small>Yakılan Kalori</small></div>
+                    </div>
+                </div>
+
+                <div class="card" style="grid-column: span 1;">
+                    <div class="card-title">Öğün Sayısı</div>
+                    <div style="font-size: 4em; font-weight: bold; text-align: center; line-height: 1.2;">2</div>
+                </div>
+
+                <div class="card" id="suTakibiCard" style="grid-column: span 1;">
+                    <div class="card-title">Su Takipçisi</div>
+                    <div class="water-tracker">
+                        <div class="water-count" id="waterCount">2/7</div>
+                        <div class="glasses-container" id="glassesContainer">
+                            </div>
+                    </div>
+                </div>
+                
+                <div class="card" style="grid-column: span 4;">
+                    <div class="card-title">Makro Besin Alımı</div>
+                    <div class="macro-item">
+                        Protein
+                        <div class="progress-bar"><div id="proteinFill" class="progress-fill" style="width: 75%;"></div></div>
+                    </div>
+                    <div class="macro-item">
+                        Karbonhidrat
+                        <div class="progress-bar"><div id="carbFill" class="progress-fill" style="width: 50%; background-color: #5cb85c;"></div></div>
+                    </div>
+                    <div class="macro-item">
+                        Yağ
+                        <div class="progress-bar"><div id="yagFill" class="progress-fill" style="width: 60%; background-color: #f0ad4e;"></div></div>
+                    </div>
+                </div>
+
+                <div style="grid-column: span 3; display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; grid-gap: 20px;">
+                    <div class="card" style="padding: 15px;">
+                        <div style="font-weight: bold; margin-bottom: 5px;">Kahvaltı</div>
+                        <ul style="list-style-type: disc; padding-left: 20px; font-size: 0.9em;"><li>Yumurta</li><li>Peynir</li><li>Domates</li><li>Zeytin</li></ul>
+                    </div>
+                    <div class="card">Öğle Yemeği</div>
+                    <div class="card">Akşam Yemeği</div>
+                    <div class="card">Atıştırmalık</div>
+                </div>
+                
+                <div style="grid-column: span 1;">
+                    <div class="card" style="margin-bottom: 20px;">Egzersiz</div>
+                    <div class="card">Vücut Değerleri</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="yemekEklemeSayfasi" class="view-container app-layout">
+        <nav class="sidebar">
+            <a href="#" class="menu-item" data-target="anaSayfa"><span>🏠</span> Ana Sayfa</a>
+            <a href="#" class="menu-item active" data-target="yemekEklemeSayfasi"><span>➕</span> Günlük Yemek</a>
+            <a href="#" class="menu-item" data-target="egzersizSayfasi"><span>🏃</span> Egzersiz</a>
+            <a href="#" class="menu-item" data-target="tarihSayfasi"><span>📅</span> Tarih</a>
+            <a href="#" class="menu-item" data-target="ayarlarSayfasi"><span>⚙️</span> Ayarlar</a>
+        </nav>
+        
+        <div class="app-content">
+            <div style="display: flex; gap: 20px; width: 100%;">
+                
+                <div class="yemek-sol-kolon">
+                    <div class="ogun-card">
+                        Kahvaltı
+                        <div class="ogun-actions"><span>+</span><span>📷</span></div>
+                    </div>
+                    <div class="ogun-card">
+                        Öğle Yemeği
+                        <div class="ogun-actions"><span>+</span><span>📷</span></div>
+                    </div>
+                    <div class="ogun-card">
+                        Akşam Yemeği
+                        <div class="ogun-actions"><span>+</span><span>📷</span></div>
+                    </div>
+                    <div class="ogun-card">
+                        Atıştırmalık
+                        <div class="ogun-actions"><span>+</span><span>📷</span></div>
+                    </div>
+                    
+                    <div class="card" style="min-height: 150px; background-color: var(--sidebar-bg); margin-top: 20px;"></div>
+                    
+                    <button class="bitti-button" data-target="anaSayfa">Bitti</button>
+                </div>
+                
+                <div class="yemek-sag-kolon">
+                    <input type="search" class="arama-kutusu" placeholder="🔍 Ara">
+                    <div class="sonuc-kapsayici">
+                        Yemek Arama Sonuçları / Özet
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        // Sayfa Geçiş Fonksiyonu
+        function changeView(targetId) {
+            document.querySelectorAll('.view-container').forEach(view => {
+                view.classList.remove('active');
+            });
+            
+            const targetView = document.getElementById(targetId);
+            if (targetView) {
+                targetView.classList.add('active');
+            }
+            
+            // Sidebar Menü Aktifliğini Yönetme
+            document.querySelectorAll('.sidebar .menu-item').forEach(item => {
+                item.classList.remove('active');
+                if (item.getAttribute('data-target') === targetId) {
+                    item.classList.add('active');
+                }
+            });
+        }
+        
+        // Su Takipçisi İşlevi
+        function initWaterTracker() {
+            const glassesContainer = document.getElementById('glassesContainer');
+            if (!glassesContainer) return;
+
+            const waterCountElement = document.getElementById('waterCount');
+            const totalGlasses = 7;
+            let currentWater = 2; 
+
+            function updateWaterDisplay() {
+                waterCountElement.textContent = `${currentWater}/${totalGlasses}`;
+                const glasses = document.querySelectorAll('#glassesContainer .water-glass');
+                glasses.forEach((glass, index) => {
+                    if (index < currentWater) {
+                        glass.classList.add('filled');
+                    } else {
+                        glass.classList.remove('filled');
+                    }
+                });
+            }
+
+            function handleWaterClick() {
+                const clickedIndex = parseInt(this.dataset.index);
+                
+                if (clickedIndex === currentWater - 1 && this.classList.contains('filled')) {
+                    currentWater = clickedIndex;
+                } else {
+                    currentWater = clickedIndex + 1;
+                }
+                updateWaterDisplay(); 
+            }
+
+            glassesContainer.innerHTML = ''; 
+            for (let i = 0; i < totalGlasses; i++) {
+                const glass = document.createElement('div');
+                glass.classList.add('water-glass');
+                glass.dataset.index = i; 
+                glass.addEventListener('click', handleWaterClick);
+                glassesContainer.appendChild(glass);
+            }
+            updateWaterDisplay(); 
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            // Olay Dinleyicilerini Ekleme (Menü ve Bitti butonu)
+            document.querySelectorAll('[data-target]').forEach(element => {
+                element.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('data-target');
+                    changeView(targetId);
+                });
+            });
+            
+            // Başlangıçta Dashboard'u aktif et
+            changeView('anaSayfa'); 
+            
+            // Su Takipçisini başlat
+            initWaterTracker();
+        });
+    </script>
+</body>
+</html>
