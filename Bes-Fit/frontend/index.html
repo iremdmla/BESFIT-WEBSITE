@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BES FİT - Fitness Takip</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Login Page -->
+    <div id="login-page" class="page active">
+        <header class="header">
+            <div class="logo">
+                <span>BES FİT</span>
+                <span class="icon">🏃</span>
+            </div>
+        </header>
+        <main class="login-container">
+            <div class="login-box">
+                <div class="logo-large">
+                    <span class="blue-text">BES FİT</span>
+                    <span class="icon">🏃</span>
+                </div>
+                <form id="login-form" class="form">
+                    <input type="text" placeholder="Kullanıcı Adı" required>
+                    <input type="text" placeholder="E-posta" required>
+                    <input type="password" placeholder="Şifre" required>
+                    <button type="submit" class="btn-primary">Giriş Yap</button>
+                </form>
+            </div>
+            <div class="signup-prompt">
+                <span>Hesabın Yok Mu?</span>
+                <a href="#" id="show-signup">Kaydol</a>
+            </div>
+        </main>
+    </div>
+
+    <!-- Signup Page -->
+    <div id="signup-page" class="page">
+        <header class="header">
+            <div class="logo">
+                <span>BES FİT</span>
+                <span class="icon">🏃</span>
+            </div>
+        </header>
+        <main class="login-container">
+            <div class="login-box">
+                <div class="logo-large">
+                    <span class="blue-text">BES FİT</span>
+                    <span class="icon">🏃</span>
+                </div>
+                <form id="signup-form" class="form">
+                    <input type="text" placeholder="İsim" required>
+                    <input type="text" placeholder="Soyisim" required>
+                    <input type="text" placeholder="Kullanıcı Adı" required>
+                    <input type="text" placeholder="E-posta" required>
+                    <input type="password" placeholder="Şifre" required>
+                    <button type="submit" class="btn-primary">Kaydol</button>
+                </form>
+            </div>
+            <div class="signup-prompt">
+                <span>Hesabın Var Mı?</span>
+                <a href="#" id="show-login">Giriş Yap</a>
+            </div>
+        </main>
+    </div>
+
+    <!-- Main Dashboard -->
+    <div id="main-page" class="page dashboard">
+        <header class="header">
+            <div class="logo">
+                <span>BES FİT</span>
+                <span class="icon">🏃</span>
+            </div>
+        </header>
+        <div class="dashboard-layout">
+            <aside class="sidebar">
+                <nav>
+                    <a href="#" class="nav-item active" data-page="main">
+                        <span class="icon">🏠</span>
+                        <span>Ana Sayfa</span>
+                    </a>
+                    <a href="#" class="nav-item" data-page="daily-food">
+                        <span class="icon">➕</span>
+                        <span>Günlük Yemek</span>
+                    </a>
+                    <a href="#" class="nav-item" data-page="daily-exercise">
+                        <span class="icon">💪</span>
+                        <span>Günlük Egzersiz</span>
+                    </a>
+                    <a href="#" class="nav-item">
+                        <span class="icon">📅</span>
+                        <span>Tarih</span>
+                    </a>
+                    <a href="#" class="nav-item">
+                        <span class="icon">⚙️</span>
+                        <span>Ayarlar</span>
+                    </a>
+                </nav>
+            </aside>
+            <main class="main-content">
+                <div id="home-content">
+                    <!-- Bunu Biliyor Muydunuz Section -->
+                    <div class="card info-card">
+                        <h2>Bunu Biliyor Muydunuz?</h2>
+                        <p id="daily-info">Yeterli su içmek metabolizmanızı hızlandırır ve daha fazla kalori yakmanıza yardımcı olur.</p>
+                    </div>
+
+                    <div class="content-grid">
+                        <!-- Özet Section -->
+                        <div class="card summary-card">
+                            <h3>Özet</h3>
+                            <div class="calorie-circle">
+                                <svg class="circle-chart" width="150" height="150">
+                                    <circle class="circle-bg" cx="75" cy="75" r="65"></circle>
+                                    <circle class="circle-progress" cx="75" cy="75" r="65" id="calorie-circle"></circle>
+                                </svg>
+                                <div class="circle-text">
+                                    <span id="total-calories">0</span> Kalori
+                                </div>
+                            </div>
+                            <div class="calorie-info">
+                                <div>
+                                    <strong id="calories-taken">0</strong>
+                                    <p>Aldığım Kalori</p>
+                                </div>
+                                <div>
+                                    <strong id="calories-burned">0</strong>
+                                    <p>Yaktığım Kalori</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Öğün Sayısı Section -->
+                        <div class="card meal-count-card">
+                            <h3>Öğün Sayısı</h3>
+                            <div class="meal-bubbles" id="meal-bubbles">
+                                <!-- Meal bubbles will be generated here -->
+                            </div>
+                            <div class="meal-count-number" id="meal-count">0</div>
+                        </div>
+                    </div>
+
+                    <!-- Makro Besin Alımı Section -->
+                    <div class="card macro-card">
+                        <h3>Makro Besin Alımı</h3>
+                        <div class="macro-bars">
+                            <div class="macro-item">
+                                <label>Protein</label>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="protein-progress" style="width: 0%"></div>
+                                </div>
+                                <span id="protein-amount">0g</span>
+                            </div>
+                            <div class="macro-item">
+                                <label>Karbonhidrat</label>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="carbs-progress" style="width: 0%"></div>
+                                </div>
+                                <span id="carbs-amount">0g</span>
+                            </div>
+                            <div class="macro-item">
+                                <label>Yağ</label>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="fat-progress" style="width: 0%"></div>
+                                </div>
+                                <span id="fat-amount">0g</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-grid">
+                        <!-- Su Takipçisi Section -->
+                        <div class="card water-card">
+                            <h3>Su Takipçisi</h3>
+                            <div class="water-counter" id="water-counter">0/7</div>
+                            <div class="water-glasses" id="water-glasses">
+                                <div class="glass" data-index="0"></div>
+                                <div class="glass" data-index="1"></div>
+                                <div class="glass" data-index="2"></div>
+                                <div class="glass" data-index="3"></div>
+                                <div class="glass" data-index="4"></div>
+                                <div class="glass" data-index="5"></div>
+                                <div class="glass" data-index="6"></div>
+                            </div>
+                        </div>
+
+                        <!-- Vücut Değerleri Section -->
+                        <div class="card body-values-card">
+                            <h3>Vücut Değerleri</h3>
+                            <div class="body-control">
+                                <div class="control-item">
+                                    <label>Kilo (kg)</label>
+                                    <div class="control-buttons">
+                                        <button class="btn-control" onclick="changeValue('weight', -0.1)">-</button>
+                                        <span class="value-display" id="weight-value">70.0</span>
+                                        <button class="btn-control" onclick="changeValue('weight', 0.1)">+</button>
+                                    </div>
+                                </div>
+                                <div class="control-item">
+                                    <label>Boy (cm)</label>
+                                    <div class="control-buttons">
+                                        <button class="btn-control" onclick="changeValue('height', -0.1)">-</button>
+                                        <span class="value-display" id="height-value">175.0</span>
+                                        <button class="btn-control" onclick="changeValue('height', 0.1)">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Öğünler Section -->
+                    <div class="card meals-card">
+                        <h3>Öğünler</h3>
+                        <div class="meals-grid">
+                            <div class="meal-category">
+                                <h4>Kahvaltı</h4>
+                                <ul id="breakfast-list"></ul>
+                            </div>
+                            <div class="meal-category">
+                                <h4>Öğle Yemeği</h4>
+                                <ul id="lunch-list"></ul>
+                            </div>
+                            <div class="meal-category">
+                                <h4>Akşam Yemeği</h4>
+                                <ul id="dinner-list"></ul>
+                            </div>
+                            <div class="meal-category">
+                                <h4>Atıştırmalık</h4>
+                                <ul id="snack-list"></ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Egzersiz Section -->
+                    <div class="card exercise-card">
+                        <h3>Egzersiz</h3>
+                    </div>
+                </div>
+
+                <!-- Günlük Yemek Page -->
+                <div id="daily-food-content" class="hidden">
+                    <div class="card">
+                        <h2>Günlük Yemek Ekle</h2>
+                        <div class="search-container">
+                            <input type="text" id="food-search" placeholder="Yiyecek ara...">
+                            <div id="search-results" class="search-results"></div>
+                        </div>
+                        <select id="meal-type" required>
+                            <option value="">Öğün Seçin</option>
+                            <option value="breakfast">Kahvaltı</option>
+                            <option value="lunch">Öğle Yemeği</option>
+                            <option value="dinner">Akşam Yemeği</option>
+                            <option value="snack">Atıştırmalık</option>
+                        </select>
+                        <div class="selected-foods-container">
+                            <h3>Seçilen Yiyecekler</h3>
+                            <ul id="selected-foods-list"></ul>
+                        </div>
+                        <button type="button" id="finish-btn" class="btn-primary">Bitti</button>
+                    </div>
+                </div>
+
+                
+                <!-- Günlük Egzersiz Page -->
+                <div id="daily-exercise-content" class="hidden">
+                    <div class="card">
+                        <h2>Egzersiz Ekle</h2>
+                        <div class="search-container">
+                            <input type="text" id="exercise-search" placeholder="Egzersiz ara...">
+                            <div id="exercise-search-results" class="search-results"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="exercise-duration">Süre (Dakika):</label>
+                            <input type="number" id="exercise-duration" min="1" max="360" value="30" required>
+                        </div>
+                        
+                        <div class="selected-foods-container">
+                            <h3>Seçilen Egzersizler</h3>
+                            <ul id="selected-exercises-list"></ul> 
+                        </div>
+                        <button type="button" id="add-exercise-btn" class="btn-primary">Egzersizleri Ekle</button>
+                    </div>
+                </div>
+
+
+
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

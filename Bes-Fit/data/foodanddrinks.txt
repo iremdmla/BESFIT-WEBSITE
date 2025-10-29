@@ -1,0 +1,579 @@
+Yiyecek ismi,Kategori,Ortalama Gramaj (g),Kalori (kcal),Protein (g),Yağ (g),Karbonhidrat (g)
+Domates,Sebze,125,22,1.1,0.2,4.8
+Salatalık,Sebze,280,45,2.0,0.3,10.9
+Biber (Yeşil, Orta boy 1 adet),Sebze,75,24,0.9,0.2,5.5
+Havuç (Orta boy 1 adet),Sebze,60,25,0.6,0.1,5.8
+Brokoli (1 kase çiğ, doğranmış),Sebze,90,31,2.6,0.3,6.0
+Ispanak (1 kase çiğ),Sebze,30,7,0.9,0.1,1.1
+Kabak (Orta boy 5 dilim, 1 cm kalınlık),Sebze,20,4,0.2,0.0,0.9
+Patates (Orta boy 1 adet, kabuklu, haş.),Sebze,150,130,3.5,0.2,30.0
+Soğan (Orta boy 1 adet),Sebze,110,44,1.2,0.1,10.3
+Sarımsak (1 diş),Sebze,3,4,0.2,0.0,0.9
+Brüksel Lahanası (1/2 kase, haş.),Sebze,80,28,2.0,0.2,5.5
+Mantar (1 kase dilimlenmiş, beyaz),Sebze,70,15,2.2,0.2,2.3
+Karnabahar (1 kase doğranmış),Sebze,100,27,2.1,0.3,5.3
+Enginar (Orta boy 1 adet, haşlanmış),Sebze,120,64,3.5,0.4,13.5
+Kırmızı Lahana (1 kase, doğranmış),Sebze,70,28,1.3,0.1,6.5
+Pırasa (1 kase, doğranmış),Sebze,90,54,1.3,0.3,12.6
+Kereviz (Orta boy 1 sap),Sebze,40,6,0.3,0.0,1.4
+Börülce (Orta boy 1 adet),Sebze,40,4,0.3,0.0,0.9
+Taze Fasulye (1 kase, haşlanmış),Sebze,125,44,2.4,0.3,9.8
+Bamya (1 kase, haşlanmış),Sebze,160,50,3.5,0.3,10.0
+Kuşkonmaz (5 orta boy sap),Sebze,75,15,1.7,0.1,3.0
+Taze Soğan (1 sap),Sebze,15,5,0.3,0.0,1.1
+Turp (Küçük boy 5 adet),Sebze,75,12,0.5,0.1,2.5
+Kara Lahana (1 kase, çiğ doğranmış),Sebze,70,35,2.5,0.5,5.5
+Patlıcan (1 orta boy dilim, 1 cm kalın.),Sebze,50,12,0.5,0.1,3.0
+Kapya Biber (Orta boy 1 adet),Sebze,120,37,1.2,0.4,8.6
+Brokoli (1 kase, haşlanmış),Sebze,160,10,5.0,0.6,29.0
+Şalgam (Orta boy 1 adet),Sebze,155,37,1.2,0.1,8.4
+Tere (1 kase, çiğ),Sebze,50,5,0.7,0.0,0.8
+Nohut (1 kase, haşlanmış),Sebze,130,269,18.0,4.0,45.0
+Kırmızı Biber (Acı, küçük boy 1 adet),Sebze,45,18,0.9,0.2,4.3
+Kıvırcık Marul (1 kase, doğranmış),Sebze,50,8,0.6,0.1,1.5
+Semizotu (1 kase, çiğ),Sebze,40,4,0.4,0.1,0.7
+Taze Bakla (1/2 kase, kabuklu haş.),Sebze,70,60,4.8,0.3,10.0
+Rezene (Orta boy 1/2 yumru),Sebze,45,16,0.7,0.1,3.7
+Lahana (Beyaz, 1 kase doğranmış),Sebze,70,18,0.9,0.1,4.2
+Pazı (1 kase, çiğ doğranmış),Sebze,35,7,0.6,0.1,1.4
+Karnabahar (1 kase, çiğ doğranmış),Sebze,100,25,1.9,0.3,5.0
+Arpacık Soğanı (Küçük boy 5 adet),Sebze,40,29,0.8,0.0,6.8
+Mürdümük (1/2 kase, haşlanmış),Sebze,90,63,4.4,0.3,10.6
+Tatlı Mısır Koçanı (1 orta boy, haşlanmış),Sebze,130,123,4.5,1.9,26.0
+Acı Biber (Orta boy 1 adet),Sebze,150,25,1.0,0.2,5.5
+Rendelenmiş Havuç (1/2 kase),Sebze,60,25,0.6,0.1,5.8
+Mini Domates (5 adet),Sebze,75,14,0.7,0.1,3.0
+Taze Sarımsak (1 sap),Sebze,10,10,0.5,0.0,2.3
+Ispanak (Pişmiş, 1/2 kase, haşlanmış),Sebze,90,21,2.7,0.3,3.6
+Yumurta (1 adet, haşlanmış),Kahvaltılık,50,75,6.5,5.0,0.5
+Zeytin (1 adet, siyah),Kahvaltılık,4,10,0.04,1.0,0.5
+Zeytin (1 adet, yeşil),Kahvaltılık,4,6,0.04,0.6,0.4
+Simit (1 adet),Kahvaltılık,120,320,10.0,10.0,48.0
+Beyaz Ekmek (1 dilim),Kahvaltılık,25,65,2.0,0.3,13.0
+Tam Buğday Ekmeği (1 dilim),Kahvaltılık,30,70,3.0,0.5,13.5
+Sucuk (1 ince dilim, pişmiş),Kahvaltılık,10,35,2.0,2.7,0.05
+Salam (1 ince dilim),Kahvaltılık,7.5,22,1.0,2.0,0.25
+Domates (1 adet, orta boy),Kahvaltılık,125,22,1.1,0.2,4.8
+Salatalık (1 adet, orta boy),Kahvaltılık,280,45,2.0,0.3,10.9
+Beyaz Peynir (1 dilim, kibrit kutusu),Kahvaltılık,30,75,4.5,6.0,0.5
+Kaşar Peyniri (1 ince dilim),Kahvaltılık,20,70,5.0,5.5,0.2
+Haşlanmış Yumurta Beyazı (1 adet),Kahvaltılık,30,15,3.5,0.0,0.3
+Sosis (1 adet, pişmiş, orta boy),Kahvaltılık,40,120,6.0,10.0,1.0
+Sigara Böreği (1 adet, kızarmış),Kahvaltılık,25,90,3.0,7.0,5.0
+Poğaça (1 adet, sade),Kahvaltılık,80,250,5.0,15.0,24.0
+Peynirli Tost (1/2 adet),Kahvaltılık,60,150,7.0,8.0,12.0
+Çeri Domates (1 adet),Kahvaltılık,15,3,0.1,0.0,0.6
+Bal (1 yemek kaşığı),Kahvaltılık,20,65,0.1,0.0,17.5
+Reçel (1 yemek kaşığı),Kahvaltılık,20,55,0.0,0.0,14.5
+Tereyağı (1 tatlı kaşığı),Kahvaltılık,10,70,0.1,8.0,0.0
+Lor Peyniri (1 yemek kaşığı),Kahvaltılık,20,20,2.2,1.0,0.7
+Labne Peyniri (1 yemek kaşığı),Kahvaltılık,15,40,1.0,3.5,0.5
+Süt (1 su bardağı),Kahvaltılık,200,100,6.5,3.5,9.5
+Zeytinyağı (1 tatlı kaşığı),Kahvaltılık,5,45,0.0,5.0,0.0
+Pekmez (1 yemek kaşığı),Kahvaltılık,20,60,0.1,0.0,15.5
+Krem Peynir (1 tatlı kaşığı),Kahvaltılık,10,35,0.7,3.3,0.5
+Zahter/Kekikli Yağ (1 tatlı kaşığı),Kahvaltılık,5,45,0.5,4.0,1.0
+Süzme Peynir (1 yemek kaşığı),Kahvaltılık,25,60,4.0,4.5,0.8
+Ceviz (1 tam tane),Kahvaltılık,5,33,0.7,3.3,0.7
+Ekmek Üstü Avokado Dilimi (1 ince dilim),Kahvaltılık,20,32,0.4,3.0,1.7
+Pastırma (1 ince dilim, pişmiş),Kahvaltılık,10,35,3.0,2.5,0.1
+Menemen (1 porsiyon/küçük kase),Kahvaltılık,100,110,6.0,8.0,3.0
+Muz (1 adet, orta boy),Kahvaltılık,120,105,1.3,0.4,27.0
+Kuru Kayısı (2 adet),Kahvaltılık,15,36,0.5,0.0,9.0
+Krem Çikolata (1 tatlı kaşığı),Kahvaltılık,10,54,0.7,3.5,5.0
+Dil Peyniri (1 parça/çubuk),Kahvaltılık,20,60,5.5,4.0,0.3
+Köy Peyniri (1 dilim),Kahvaltılık,30,70,6.0,5.0,0.5
+Yulaf Ezmesi (1 yemek kaşığı, kuru),Kahvaltılık,10,38,1.3,0.7,6.7
+Ayva/Nar Reçeli (1 yemek kaşığı),Kahvaltılık,20,55,0.0,0.0,14.5
+Haşlanmış Yumurta Sarısı (1 adet),Kahvaltılık,20,55,2.7,4.5,0.1
+Hellim Peyniri (1 ince dilim, ızgara),Kahvaltılık,25,85,6.5,6.0,0.5
+Kaşık Helvası (1 yemek kaşığı),Kahvaltılık,25,120,3.0,7.0,11.0
+Tulum Peyniri (1 yemek kaşığı, ufalanmış),Kahvaltılık,20,60,5.0,4.5,0.5
+Yumurta Kapama (1 adet),Kahvaltılık,60,95,7.0,6.5,0.5
+Pankek/Krep (1 adet, küçük),Kahvaltılık,40,80,2.0,3.0,11.0
+Tam Yağlı Yoğurt (1 kase, 1/2 kase),Kahvaltılık,100,60,3.5,3.5,4.5
+Fındık Ezmesi (1 tatlı kaşığı),Kahvaltılık,10,60,1.5,5.0,2.5
+Çilek (1 adet, orta boy),Kahvaltılık,12,4,0.1,0.0,0.9
+Bal Kabağı Reçeli (1 yemek kaşığı),Kahvaltılık,20,50,0.0,0.0,13.0
+Sucuklu Yumurta (1 porsiyon: 1 yumurta + 2 dilim sucuk),Kahvaltılık,90,140,9.0,11.0,1.0
+Pişi/Hamur Kızartması (1 adet, orta boy),Kahvaltılık,40,130,3.0,8.0,12.0
+Ezine Peyniri (1 dilim, orta),Kahvaltılık,30,85,6.0,6.5,0.5
+Çikolatalı Pankek (1 adet, küçük),Kahvaltılık,40,110,2.0,5.0,13.0
+Tahıl Gevreği (1 porsiyon/1/2 kase),Kahvaltılık,30,115,3.0,1.0,24.0
+Susamlı Kraker (2 adet),Kahvaltılık,15,70,1.5,4.0,6.5
+Zeytin Yağlı Zahter (1 tatlı kaşığı),Kahvaltılık,5,45,0.5,4.0,1.0
+Çökelek Peyniri (1 yemek kaşığı),Kahvaltılık,20,30,4.0,1.0,1.5
+Gözleme (1/4 adet, sade),Kahvaltılık,60,140,5.0,6.0,17.0
+Ananas Reçeli (1 yemek kaşığı),Kahvaltılık,20,50,0.0,0.0,13.0
+Simit (1 adet),Hamur İşi,120,320,10.0,10.0,48.0
+Beyaz Ekmek (1 dilim),Hamur İşi,25,65,2.0,0.3,13.0
+Tam Buğday Ekmeği (1 dilim),Hamur İşi,30,70,3.0,0.5,13.5
+Sigara Böreği (1 adet, kızarmış),Hamur İşi,25,90,3.0,7.0,5.0
+Poğaça (1 adet, sade),Hamur İşi,80,250,5.0,15.0,24.0
+Peynirli Tost (1/2 adet),Hamur İşi,60,150,7.0,8.0,12.0
+Pankek/Krep (1 adet, küçük),Hamur İşi,40,80,2.0,3.0,11.0
+Pişi/Hamur Kızartması (1 adet, orta boy),Hamur İşi,40,130,3.0,8.0,12.0
+Çikolatalı Pankek (1 adet, küçük),Hamur İşi,40,110,2.0,5.0,13.0
+Gözleme (1/4 adet, sade),Hamur İşi,60,140,5.0,6.0,17.0
+Açma (1 adet, sade),Hamur İşi,100,320,7.0,19.0,30.0
+Su Böreği (1 dilim, fırında),Hamur İşi,100,250,12.0,15.0,16.0
+Bazlama (1/4 dilim),Hamur İşi,50,125,4.0,1.0,24.0
+Muffin (1 adet, sade/küçük),Hamur İşi,50,180,3.0,9.0,22.0
+Waffle (1 adet, sade/küçük),Hamur İşi,50,150,4.0,7.0,18.0
+Yufka (1/4 adet, çiğ),Hamur İşi,50,75,2.0,0.2,16.0
+Mısırlı Ekmek (1 dilim),Hamur İşi,30,75,2.5,1.0,14.0
+Yumurtalı Ekmek (1 dilim, kızarmış),Hamur İşi,40,120,5.0,7.0,8.0
+Halka Tatlı (1 adet, şerbetli),Hamur İşi,60,210,1.5,10.0,28.0
+Galeta (2 adet, sade),Hamur İşi,15,65,1.5,1.0,12.0
+Peynirli Tepsi Böreği (1 dilim),Hamur İşi,100,280,11.0,18.0,18.0
+Kepekli Ekmek (1 dilim),Hamur İşi,30,65,3.0,0.5,13.0
+Lavaş (1/4 adet),Hamur İşi,40,110,3.0,1.0,22.0
+Milföy Hamuru (1 adet, pişmiş),Hamur İşi,35,130,2.0,9.0,10.0
+Katmer (1/4 adet, sade),Hamur İşi,50,180,3.0,14.0,12.0
+Sade Kurabiye/Kavala (1 adet, küçük),Hamur İşi,15,75,1.0,4.5,7.5
+Kızarmış Ekmek (1 dilim),Hamur İşi,25,80,2.0,1.5,13.0
+İçli Gözleme (1/4 adet, peynirli),Hamur İşi,75,190,8.0,10.0,18.0
+Sütlü Ekmek (1 dilim),Hamur İşi,30,85,3.0,2.0,14.0
+Tuzlu Çubuk Kraker (5 adet),Hamur İşi,15,65,1.5,3.0,8.0
+Pizza Dilimi (1/8 ince dilim, sade/küçük),Hamur İşi,75,180,8.0,8.0,20.0
+Açık Sandviç Ekmekçik (1 adet, küçük),Hamur İşi,30,80,3.0,1.5,15.0
+Simit Sandviç (1/2 adet, peynirli),Hamur İşi,100,300,10.0,15.0,28.0
+Yağlı Ekmek/Yağlı Pişi (1 adet, küçük),Hamur İşi,30,110,2.5,7.0,9.0
+Kuru Pasta (1 adet, küçük),Hamur İşi,20,85,1.0,5.0,8.5
+Peynirli Mini Börek (1 adet, küçük),Hamur İşi,30,100,3.5,6.0,8.0
+Ekmek Kadayıfı (1 küçük dilim, şerbetli),Hamur İşi,50,160,2.0,2.0,33.0
+Çavdar Ekmeği (1 dilim),Hamur İşi,35,75,3.5,0.8,14.0
+Tuzlu Lokma (2 adet),Hamur İşi,30,110,2.0,7.0,10.0
+Pita Ekmeği (1/2 adet),Hamur İşi,35,90,3.0,1.0,18.0
+Susamlı Kraker (2 adet),Hamur İşi,15,70,1.5,4.0,6.5
+Ev Böreği (1 dilim, kıymalı),Hamur İşi,120,350,14.0,22.0,25.0
+Ekmek Çeşitleri (Glutensiz, 1 dilim),Hamur İşi,30,80,2.0,2.0,14.0
+Tuzlu Simit (1 adet, küçük),Hamur İşi,60,160,5.0,5.0,24.0
+Misket Ekmek (1 adet, küçük),Hamur İşi,25,60,2.0,0.5,12.0
+Tahinli Çörek (1/4 adet),Hamur İşi,50,200,4.0,12.0,19.0
+Mayalı Ekmek (1 dilim),Hamur İşi,40,100,3.0,1.5,18.0
+Kol Böreği (1 ince dilim, peynirli),Hamur İşi,80,220,8.0,12.0,18.0
+Çiğ Börek (1 adet, kızarmış),Hamur İşi,60,200,8.0,12.0,16.0
+Sandviç Ekmeği (1/2 adet, küçük),Hamur İşi,30,75,2.5,1.0,14.0
+Mercimek Çorbası (Kırmızı),Çorba,250,140,8.0,4.0,18.0
+Ezogelin Çorbası,Çorba,250,150,7.0,5.0,20.0
+Tavuk Suyu Çorbası,Çorba,250,90,7.0,5.0,4.0
+Domates Çorbası (Sütlü/Kremalı),Çorba,250,130,5.0,6.0,14.0
+Yayla Çorbası (Nohutlu/Pirinçli),Çorba,250,160,8.0,7.0,16.0
+Tarhana Çorbası,Çorba,250,110,6.0,4.0,14.0
+Şehriye Çorbası,Çorba,250,100,4.0,3.0,15.0
+Brokoli Çorbası (Kremalı),Çorba,250,180,6.0,12.0,10.0
+Mantar Çorbası (Kremalı),Çorba,250,170,5.0,11.0,12.0
+Düğün Çorbası (Terbiyeli),Çorba,250,140,10.0,7.0,8.0
+İşkembe Çorbası,Çorba,250,160,15.0,10.0,2.0
+Kelle Paça Çorbası,Çorba,250,220,20.0,15.0,2.0
+Kabak Çorbası (Hafif),Çorba,250,80,3.0,3.0,11.0
+Balık Çorbası,Çorba,250,120,10.0,5.0,8.0
+Sebze Çorbası (Hafif),Çorba,250,70,3.0,2.0,10.0
+Arpacık Şehriye Çorbası (Domatesli),Çorba,250,110,4.0,3.0,17.0
+Tutmaç Çorbası (Hamurlu, Yoğurtlu),Çorba,250,180,9.0,8.0,18.0
+Erişte Çorbası (Salçalı),Çorba,250,150,6.0,5.0,20.0
+Pirinç Çorbası (Sade),Çorba,250,100,3.0,2.0,18.0
+Pazı Çorbası (Yoğurtlu),Çorba,250,130,7.0,6.0,12.0
+Sütlü Mısır Çorbası (Kremsiz),Çorba,250,140,6.0,5.0,18.0
+Acılı Ekşili Çorba (Çin Tarzı),Çorba,250,120,7.0,4.0,14.0
+Soğuk Domates Çorbası (Gaspacho),Çorba,250,80,2.0,3.0,12.0
+Yeşil Mercimek Çorbası (Etsiz),Çorba,250,150,10.0,4.0,20.0
+Bulgurlu Yoğurt Çorbası (Ayran Aşı),Çorba,250,160,9.0,7.0,16.0
+Sütlaç (1 kase, fırınlanmamış),Tatlı,180,240,6.0,7.0,38.0
+Kazandibi (1 porsiyon/dilim),Tatlı,150,220,5.0,7.0,35.0
+Tavuk Göğsü (1 porsiyon/dilim),Tatlı,150,210,5.0,6.0,33.0
+Profiterol (1 porsiyon/küçük kase),Tatlı,120,280,5.0,15.0,30.0
+Güllaç (1 dilim, cevizli),Tatlı,150,250,5.0,8.0,40.0
+Muhallebi (1 kase),Tatlı,150,180,4.0,5.0,30.0
+Aşure (1 kase, orta),Tatlı,180,300,8.0,10.0,45.0
+Keşkül (1 kase),Tatlı,150,230,6.0,8.0,35.0
+Trileçe (1 dilim, orta),Tatlı,120,290,6.0,15.0,32.0
+Baklava (1 dilim, orta),Tatlı,40,150,2.0,8.0,18.0
+Künefe (1 porsiyon/1/4 adet),Tatlı,100,320,8.0,20.0,28.0
+Şekerpare (1 adet, orta),Tatlı,50,130,2.0,5.0,20.0
+Revani (1 dilim, orta),Tatlı,80,240,4.0,10.0,34.0
+Kemalpaşa Tatlısı (1 adet),Tatlı,30,70,1.0,0.5,16.0
+Cevizli Kadayıf (1 adet/yuvarlak porsiyon),Tatlı,70,280,4.0,15.0,32.0
+Tulumba Tatlısı (1 adet, orta),Tatlı,30,100,1.0,6.0,10.0
+Halka Tatlısı (1 adet, orta),Tatlı,60,200,1.5,10.0,20.0
+Ekmek Kadayıfı (1 dilim, kaymaklı),Tatlı,150,380,5.0,15.0,55.0
+Kabak Tatlısı (1 dilim, tahinli-cevizli),Tatlı,150,200,3.0,8.0,30.0
+İrmik Helvası (3 yemek kaşığı/porsiyon),Tatlı,80,180,3.0,9.0,22.0
+Fıstıklı Sarma (1 adet/yarım dilim),Tatlı,50,210,3.0,15.0,18.0
+Dilber Dudağı (1 adet, orta),Tatlı,40,140,2.0,8.0,15.0
+Soğuk Baklava (1 dilim),Tatlı,70,220,4.0,15.0,18.0
+Sütlaç (Fırınlanmış, 1 kase),Tatlı,180,260,7.0,8.0,39.0
+Katmer (1/4 adet, fıstıklı),Tatlı,100,400,6.0,28.0,32.0
+Tahin Helvası (1 kibrit kutusu),Tatlı,40,180,5.0,10.0,18.0
+Dondurmalı İrmik Helvası (1 porsiyon),Tatlı,120,280,4.0,14.0,35.0
+Cevizli Sucuk (3 dilim),Tatlı,40,140,2.0,5.0,23.0
+Saray Sarması (1 dilim),Tatlı,80,200,4.0,7.0,30.0
+Sufle (1 porsiyon, orta),Tatlı,100,320,6.0,18.0,34.0
+Kadayıf Dolması (1 adet, kızarmış),Tatlı,60,200,3.0,12.0,20.0
+İncir Tatlısı (1 adet, cevizli),Tatlı,80,190,2.0,8.0,28.0
+Bülbül Yuvası (1 adet),Tatlı,40,160,2.0,10.0,16.0
+Ağlayan Pasta (1 dilim, orta),Tatlı,100,280,5.0,14.0,30.0
+Puding (Çikolatalı, 1 kase),Tatlı,150,190,4.0,5.0,32.0
+Mousse (Çikolatalı, 1 kase),Tatlı,100,240,5.0,18.0,18.0
+Cezerye (1 dilim, orta),Tatlı,30,120,1.0,5.0,18.0
+Lokum (2 adet, sade),Tatlı,20,80,0.1,0.5,19.0
+Prenses Tatlısı (1 dilim),Tatlı,120,260,5.0,10.0,35.0
+Peynir Tatlısı (Höşmerim, 1 porsiyon),Tatlı,100,240,8.0,12.0,22.0
+Elmalı Turta/Pay (1 dilim, küçük),Tatlı,100,280,3.0,14.0,35.0
+Magnolia (1 kase, küçük),Tatlı,150,320,7.0,15.0,38.0
+Fıstıklı Tel Kadayıf (1 adet, yuvarlak),Tatlı,70,250,3.0,14.0,28.0
+Meyveli Yoğurt (1 kase, sade),Tatlı,150,120,5.0,3.0,18.0
+Dondurma (1 top, sade),Tatlı,50,100,3.0,5.0,12.0
+Mozaik Pasta (1 ince dilim),Tatlı,70,250,4.0,18.0,20.0
+Damla Sakızlı Sütlaç (1 kase),Tatlı,180,245,6.0,7.0,38.0
+Vişne Tatlısı (1 porsiyon, komposto),Tatlı,150,140,1.0,0.5,33.0
+Waffle (1 adet, sade, toppingsiz),Tatlı,150,350,8.0,15.0,45.0
+Kaymaklı Kabak Tatlısı (1 dilim),Tatlı,150,250,4.0,12.0,30.0
+Supangle (1 kase),Tatlı,150,220,6.0,8.0,32.0
+Bisküvili Pasta (1 ince dilim),Tatlı,80,240,4.0,12.0,25.0
+Trileçe (Karamelli, 1 dilim),Tatlı,120,310,6.0,16.0,34.0
+Cheesecake (1/8 dilim, sade),Tatlı,120,350,7.0,25.0,25.0
+Şambali (1 dilim, orta),Tatlı,80,220,3.0,8.0,34.0
+Susamlı Krokan (1 adet, küçük),Tatlı,20,100,2.0,6.0,10.0
+Fıstık Ezmeli Kurabiye (1 adet, küçük),Tatlı,25,120,4.0,8.0,8.0
+Çikolatalı Kek (1 ince dilim),Tatlı,60,200,3.0,10.0,25.0
+Sünger Tatlısı (1 dilim),Tatlı,100,230,4.0,9.0,32.0
+Sakızlı Muhallebi (1 kase),Tatlı,150,185,4.0,5.0,31.0
+Sütlaç (Sakızlı, fırınlanmış, 1 kase),Tatlı,180,265,7.0,8.0,40.0
+Fransız Tostu (Tatlı, 1 dilim),Tatlı,70,180,5.0,9.0,20.0
+Şekerpare (Fındıklı, 1 adet),Tatlı,50,140,2.0,6.0,20.0
+Balkabağı Cheesecake (1/8 dilim),Tatlı,120,330,6.0,22.0,28.0
+Krem Karamel (1 porsiyon/kase),Tatlı,150,200,7.0,8.0,28.0
+Panna Cotta (1 kase, meyveli),Tatlı,120,230,5.0,15.0,20.0
+Un Helvası (2 yemek kaşığı/porsiyon),Tatlı,60,200,4.0,12.0,18.0
+Pişmaniye (20g),Tatlı,20,80,1.0,2.0,15.0
+Cevizli Bisküvi (1 adet, büyük),Tatlı,30,150,2.0,9.0,15.0
+Frambuazlı Cheesecake (1/8 dilim),Tatlı,120,340,7.0,24.0,26.0
+Damla Sakızlı Muhallebi (1 kase),Tatlı,150,190,4.0,5.0,32.0
+Cevizli Helva (1 kibrit kutusu),Tatlı,40,190,5.0,12.0,17.0
+Ekler Pasta (1 adet, küçük),Tatlı,30,100,2.0,6.0,10.0
+Limonlu Kek (1 ince dilim),Tatlı,60,190,3.0,9.0,25.0
+Sütlü Nuriye (1 dilim),Tatlı,50,180,3.0,10.0,20.0
+Ayva Tatlısı (1 adet, kaymaklı),Tatlı,150,230,2.0,10.0,35.0
+Etimek Tatlısı (1 dilim),Tatlı,80,190,3.0,7.0,28.0
+Muzlu Rulo Pasta (1 ince dilim),Tatlı,70,220,4.0,12.0,25.0
+Kedi Dili Tatlısı (1 dilim),Tatlı,100,210,5.0,7.0,32.0
+Sarı Burma (1 adet/yarım dilim),Tatlı,50,200,3.0,13.0,18.0
+Patates Cipsi (Küçük paket, 1/4 büyük paket),Atıştırmalık,40,210,3.0,13.0,20.0
+Mısır Cipsi (Küçük paket, acılı),Atıştırmalık,50,250,4.0,14.0,28.0
+Kraker (Tuzlu, 1 paket, küçük),Atıştırmalık,50,220,5.0,10.0,28.0
+Fıstık (Küçük paket, tuzlu),Atıştırmalık,50,300,12.0,25.0,8.0
+Çekirdek (Ay Çekirdeği, 1 avuç),Atıştırmalık,25,140,5.5,12.0,5.0
+Sütlü Çikolata (Tekli tablet/küçük paket),Atıştırmalık,40,220,3.0,14.0,22.0
+Gofret (Tekli paket, çikolatalı),Atıştırmalık,35,180,2.5,10.0,20.0
+Bisküvi (Kremalı, 2 adet),Atıştırmalık,30,150,2.0,7.0,20.0
+Şeker (Yumuşak, 5 adet),Atıştırmalık,25,100,0.1,0.5,23.0
+Marshmallow (3 adet, büyük),Atıştırmalık,30,100,1.0,0.1,24.0
+Enerji Barı (Müsli/Kuruyemişli, 1 adet),Atıştırmalık,40,180,5.0,9.0,20.0
+Jelibon/Jel Şeker (Küçük paket),Atıştırmalık,50,160,3.0,0.1,37.0
+Lokum (3 adet, paketli),Atıştırmalık,30,120,0.5,0.5,28.0
+Kek (Paketli, sade/meyveli, 1 adet),Atıştırmalık,50,200,3.0,10.0,25.0
+Sandviç Bisküvi (Paketli, kremalı, 1 adet),Atıştırmalık,40,190,3.0,9.0,25.0
+Bitter Çikolata (Tekli tablet/küçük paket),Atıştırmalık,40,230,4.0,16.0,19.0
+Kremalı Bisküvi (Yuvarlak, 3 adet),Atıştırmalık,35,170,2.0,8.0,24.0
+Fındık Ezmeli Gofret (Tekli paket),Atıştırmalık,45,230,4.0,15.0,22.0
+Patlamış Mısır (Küçük paket, yağlı),Atıştırmalık,30,150,4.0,8.0,16.0
+Pirinç Patlağı (Çikolatalı, 1 adet),Atıştırmalık,30,130,2.0,5.0,20.0
+Sulu Kek (Islak kek, paketli, 1 adet),Atıştırmalık,60,250,3.0,14.0,28.0
+Leblebi (Tuzlu, 1 avuç),Atıştırmalık,30,110,6.0,1.0,18.0
+Gevrek (Kahvaltılık, 1/2 kase, kuru),Atıştırmalık,30,120,3.0,1.5,25.0
+Kuruyemiş Karışımı (Küçük paket),Atıştırmalık,40,240,7.0,18.0,12.0
+Sakız (Şekerli, 5 adet),Atıştırmalık,10,35,0.0,0.0,9.0
+Meyveli Bar (Paketli, kuru meyveli, 1 adet),Atıştırmalık,35,120,2.0,4.0,20.0
+Kroket (Patates/Peynirli, 3 adet, hazır),Atıştırmalık,50,150,5.0,8.0,15.0
+Kurabiye (Paketli, yulaflı, 2 adet),Atıştırmalık,40,190,3.0,10.0,22.0
+Çikolatalı Kaplamalı Bisküvi (1 adet),Atıştırmalık,25,130,1.5,7.0,14.0
+Sosisli Poğaça (Paketli, küçük),Atıştırmalık,60,230,6.0,15.0,18.0
+Pretzel (Büyük, tuzlu, 1 adet),Atıştırmalık,50,170,4.0,3.0,32.0
+İnce Gofret (Rulo, çikolatalı, 4 adet),Atıştırmalık,30,150,2.0,8.0,18.0
+Pirinç Krakeri (Tuzlu/Tatlı, 4 adet),Atıştırmalık,25,110,1.0,4.0,17.0
+Draje Çikolata (Renkli, 1 paket, küçük),Atıştırmalık,45,210,3.0,10.0,28.0
+Badem Şekeri (5 adet),Atıştırmalık,25,120,2.0,5.0,18.0
+Tuzlu Bisküvi (Mini paket, 1/4 büyük paket),Atıştırmalık,30,140,3.0,7.0,16.0
+Çikolatalı Krema (Tekli paket, mini),Atıştırmalık,15,75,1.0,5.0,7.0
+Meyveli Yoğurt Barı (Paketli, 1 adet),Atıştırmalık,30,120,4.0,5.0,18.0
+Galeta Unlu Kraker (2 adet, büyük),Atıştırmalık,20,90,2.0,4.0,12.0
+Peynirli Kraker (Paketli, mini),Atıştırmalık,25,120,3.0,7.0,11.0
+İncir Barı (Paketli, 1 adet),Atıştırmalık,40,130,2.0,3.0,25.0
+Çubuk Kraker (Peynirli, 1 paket),Atıştırmalık,40,180,4.0,8.0,22.0
+Dondurulmuş Yoğurt (Tekli kap, küçük),Atıştırmalık,100,150,5.0,4.0,24.0
+Fındıklı Çikolata (Tekli tablet/küçük paket),Atıştırmalık,40,240,4.0,16.0,20.0
+Meyveli Sakız (Kutu, 5 adet),Atıştırmalık,10,40,0.0,0.0,10.0
+Susamlı Kraker (1 paket, küçük),Atıştırmalık,30,150,4.0,8.0,17.0
+Sütlü Kahve (3'ü 1 arada, tekli paket),Atıştırmalık,20,90,1.0,3.0,15.0
+Enerji İçeceği (Küçük kutu, 250 ml),Atıştırmalık,250,110,0.0,0.0,27.0
+Çikolatalı Dolgulu Kruvasan (Paketli, mini),Atıştırmalık,45,210,3.0,12.0,22.0
+Cevizli Kuru Pasta (1 adet, küçük),Atıştırmalık,20,100,1.5,6.0,10.0
+Mini Sandviç Kek (Vanilyalı, 1 adet),Atıştırmalık,30,130,2.0,7.0,15.0
+Ketçaplı Cips (Küçük paket),Atıştırmalık,40,200,3.0,12.0,21.0
+Yoğurt Kaplı Fındık (1 avuç),Atıştırmalık,30,170,4.0,11.0,14.0
+Çikolatalı Sufle (Hazır/Paketli, 1 adet),Atıştırmalık,80,280,5.0,15.0,30.0
+Pirinç Patlağı (Sade, 3 adet),Atıştırmalık,20,80,1.5,0.5,17.0
+Bitter Kaplamalı Gofret (Tekli paket),Atıştırmalık,35,190,3.0,12.0,20.0
+Fıstık Ezmeli Bisküvi (2 adet),Atıştırmalık,30,160,4.0,9.0,18.0
+Kuru Üzüm (Küçük paket, 1 avuç),Atıştırmalık,30,90,1.0,0.1,23.0
+Tahıllı Kraker (Tuzlu, 4 adet),Atıştırmalık,30,130,4.0,5.0,18.0
+Sıcak Çikolata (Hazır toz, tekli paket),Atıştırmalık,25,100,2.0,3.0,17.0
+Mısır Gevreği Barı (Paketli, 1 adet),Atıştırmalık,30,140,2.0,6.0,20.0
+Peynir Dolgulu Kraker (Paketli, mini),Atıştırmalık,30,150,5.0,9.0,13.0
+Mini Pizza (Hazır/Paketli, 1 adet),Atıştırmalık,70,200,8.0,10.0,20.0
+Kuru Erik (3-4 adet),Atıştırmalık,30,70,1.0,0.1,18.0
+Tostlu Sandviç (Paketli, küçük),Atıştırmalık,80,250,10.0,14.0,20.0
+Cevizli Bar (Paketli, 1 adet),Atıştırmalık,40,190,4.0,12.0,18.0
+Meyveli Soda (Kutu, 250 ml),Atıştırmalık,250,100,0.0,0.0,25.0
+Fıstıklı Ezme (Tekli küçük paket),Atıştırmalık,30,180,6.0,15.0,6.0
+Kahveli Gofret (Tekli paket),Atıştırmalık,35,170,2.0,9.0,20.0
+Çikolatalı Fındık (Küçük paket, 1 avuç),Atıştırmalık,30,180,3.0,14.0,12.0
+Krem Peynirli Kraker (Paketli, 2 adet),Atıştırmalık,30,140,4.0,9.0,12.0
+Mini Çikolatalı Muffin (Paketli, 1 adet),Atıştırmalık,40,180,3.0,9.0,20.0
+Tuzlu Fıstıklı Karışım (Küçük paket),Atıştırmalık,50,290,10.0,24.0,10.0
+Jelibon (Ekşi, küçük paket),Atıştırmalık,50,150,2.0,0.1,35.0
+Yulaf Ezmeli Kurabiye (Paketli, 1 adet),Atıştırmalık,40,180,4.0,9.0,20.0
+Kuru Fasulye (Etli, 1 porsiyon),Yemek,250,300,18.0,10.0,35.0
+İzmir Köfte (3 adet köfte + sos),Yemek,200,320,25.0,18.0,15.0
+Tavuk Sote (1 porsiyon),Yemek,200,280,35.0,12.0,5.0
+Dana Kavurma (1 porsiyon, az yağlı),Yemek,150,350,30.0,25.0,0.0
+Hünkar Beğendi (1 porsiyon),Yemek,250,380,25.0,28.0,10.0
+İskender Kebap (Orta porsiyon),Yemek,300,650,40.0,45.0,25.0
+Karnıyarık (1 adet),Yemek,250,280,15.0,20.0,10.0
+Fırında Tavuk But (1 adet but + sebze),Yemek,200,310,38.0,15.0,5.0
+Adana Kebap (1 porsiyon, lavaşsız),Yemek,180,360,35.0,23.0,5.0
+Musakka (Kıymalı, 1 porsiyon),Yemek,250,340,20.0,25.0,15.0
+Güveç (Kuzu Etli, 1 porsiyon),Yemek,250,400,30.0,28.0,15.0
+Etli Yaprak Sarma (8-10 adet, yoğurtlu),Yemek,200,280,15.0,15.0,25.0
+Tavuklu Pilav (1 porsiyon),Yemek,200,350,25.0,10.0,40.0
+Alinazik (Kıymalı/Etli, 1 porsiyon),Yemek,250,420,28.0,30.0,15.0
+Zeytinyağlı Enginar (1 adet),Yemek,150,120,4.0,7.0,12.0
+Taze Fasulye (Zeytinyağlı, 1 porsiyon),Yemek,200,150,5.0,10.0,10.0
+Ispanak Yemeği (Zeytinyağlı, 1 porsiyon),Yemek,200,180,10.0,12.0,8.0
+Zeytinyağlı Barbunya (1 porsiyon),Yemek,200,210,12.0,6.0,30.0
+Börülce Salatası (Zeytinyağlı, 1 porsiyon),Yemek,150,100,5.0,5.0,10.0
+Zeytinyağlı Biber Dolması (1 adet, orta),Yemek,180,220,5.0,12.0,25.0
+Kabak Yemeği (Zeytinyağlı, 1 porsiyon),Yemek,200,110,4.0,6.0,10.0
+Lahmacun (1 adet, orta),Yemek,150,320,15.0,12.0,38.0
+Pide (Kıymalı, 1/4 adet),Yemek,100,250,12.0,10.0,28.0
+Mantı (Yoğurtlu, 1 porsiyon),Yemek,250,450,20.0,20.0,50.0
+Pirinç Pilavı (1 porsiyon/orta kase),Yemek,150,220,4.0,6.0,38.0
+Bulgur Pilavı (1 porsiyon/orta kase),Yemek,150,180,6.0,4.0,30.0
+Mücver (2 adet, orta),Yemek,100,180,8.0,12.0,10.0
+Pide (Kuşbaşılı, 1/4 adet),Yemek,100,260,15.0,12.0,25.0
+Su Böreği (1 dilim, orta),Yemek,100,300,15.0,18.0,20.0
+Gözleme (Peynirli, yarım),Yemek,150,350,15.0,20.0,30.0
+Mercimek Köftesi (4 adet, orta),Yemek,150,200,10.0,8.0,25.0
+Köfte (1 kasap köfte),Yemek,30,87,3.9,3.1,1.5
+İçli Köfte (Kızartma, 1 adet),Yemek,100,280,12.0,20.0,12.0
+Piliç Izgara (1 porsiyon/180g),Yemek,180,250,45.0,7.0,0.0
+Balık (Levrek/Çupra, Izgara, 1 adet),Yemek,250,320,40.0,18.0,0.0
+Patates Oturtma (Kıymalı, 1 porsiyon),Yemek,250,290,15.0,15.0,25.0
+Kremalı Makarna (1 porsiyon),Yemek,250,400,15.0,20.0,40.0
+Semizotu Yemeği (Yoğurtlu, 1 porsiyon),Yemek,200,140,6.0,8.0,10.0
+Kuru Patlıcan Dolması (2 adet),Yemek,150,240,8.0,12.0,25.0
+Tavuk Döner (Porsiyon, pilavlı),Yemek,250,480,35.0,20.0,40.0
+Pizza (Orta boy 1/4 dilim, karışık),Yemek,150,380,18.0,20.0,35.0
+Fırın Sütlaç (Tuzlu/Ana yemek, 1 kase),Yemek,200,280,12.0,10.0,35.0
+Kuzu Tandır (1 porsiyon, kemiksiz),Yemek,180,420,45.0,25.0,0.0
+Patates Kızartması (Orta porsiyon),Yemek,150,400,5.0,25.0,40.0
+Pırasa Yemeği (Zeytinyağlı, 1 porsiyon),Yemek,200,140,4.0,8.0,15.0
+Ciğer Şiş (1 porsiyon, lavaşsız),Yemek,180,300,38.0,15.0,5.0
+Kaşarlı Tost (1 adet, orta),Yemek,120,350,18.0,20.0,25.0
+Çiğ Köfte (5 adet, marul/lavaşsız),Yemek,150,240,10.0,8.0,35.0
+Fellah Köftesi (Yoğurtlu, 1 porsiyon),Yemek,200,320,15.0,12.0,40.0
+Makarna Salatası (1 porsiyon, mayonezli),Yemek,200,350,10.0,25.0,25.0
+Börek (Kıymalı/Tepsi, 1 dilim),Yemek,120,380,15.0,25.0,25.0
+Enginarlı Pilav (1 porsiyon),Yemek,150,190,5.0,6.0,30.0
+İmam Bayıldı (1 adet, orta),Yemek,200,210,5.0,15.0,15.0
+Fırın Makarna (1 porsiyon),Yemek,250,330,18.0,15.0,30.0
+Mercimek Yemeği (Etli, 1 porsiyon),Yemek,200,240,15.0,10.0,25.0
+Domates Soslu Makarna (1 porsiyon),Yemek,250,320,10.0,8.0,50.0
+Sulu Köfte (1 porsiyon),Yemek,250,280,18.0,12.0,25.0
+Tavuk Şiş (1 porsiyon, lavaşsız),Yemek,180,260,38.0,10.0,5.0
+Peynirli Gözleme (Tam, orta),Yemek,250,550,25.0,30.0,45.0
+Karnabahar Yemeği (Kıymalı, 1 porsiyon),Yemek,250,260,15.0,15.0,15.0
+Izgara Köfte (3 adet, sade),Yemek,150,300,30.0,18.0,5.0
+Tavuklu Sezar Salata (Soslu, büyük kase),Yemek,300,380,35.0,20.0,15.0
+Fırınlanmış Sebze (Tavuklu, 1 porsiyon),Yemek,250,290,25.0,15.0,15.0
+Beyaz Peynirli Tost (1 adet, orta),Yemek,120,310,15.0,15.0,25.0
+Ciğer Tava (1 porsiyon, ekmeksiz),Yemek,150,330,30.0,22.0,5.0
+Erişte (Peynirli/Cevizli, 1 porsiyon),Yemek,200,380,15.0,18.0,40.0
+Patatesli Börek (Tepsi, 1 dilim),Yemek,120,350,10.0,20.0,30.0
+Yarma Aşı (Buğday çorbası, ana yemek, 1 kase),Yemek,250,260,15.0,8.0,35.0
+Balık Ekmek (Yarım ekmek, uskumru/palamut),Yemek,250,450,35.0,20.0,30.0
+Zeytinyağlı Kereviz (1 porsiyon),Yemek,200,160,5.0,10.0,15.0
+Pastırmalı Kuru Fasulye (1 porsiyon),Yemek,250,350,20.0,15.0,35.0
+Patatesli Pide (1/4 adet),Yemek,100,230,8.0,10.0,30.0
+Ekşili Köfte (1 porsiyon),Yemek,250,310,20.0,15.0,25.0
+Tavuklu Wrap (Orta boy, soslu),Yemek,200,420,30.0,20.0,30.0
+Kabak Dolması (2 adet, yoğurtlu),Yemek,200,250,15.0,15.0,15.0
+Pirinçsiz Yaprak Sarma (8-10 adet, zeytinyağlı),Yemek,150,180,5.0,12.0,10.0
+Sosisli Sandviç (1 adet, soslu),Yemek,150,400,15.0,25.0,30.0
+Kıymalı Makarna (1 porsiyon),Yemek,250,380,25.0,15.0,35.0
+Kuzu Şiş (1 porsiyon, lavaşsız),Yemek,180,380,40.0,25.0,5.0
+Sarma (Lahana, etli, 3 adet),Yemek,200,260,15.0,15.0,20.0
+Pırasalı Börek (Tepsi, 1 dilim),Yemek,120,320,8.0,20.0,25.0
+Tavuklu Sandviç (1 adet, büyük, mayonezli),Yemek,200,450,25.0,25.0,35.0
+Kısır (1 porsiyon, orta kase),Yemek,150,220,6.0,10.0,30.0
+Etli Taze Fasulye (1 porsiyon),Yemek,250,280,18.0,15.0,15.0
+Fasulye Piyazı (Zeytinyağlı, 1 porsiyon),Yemek,200,200,10.0,10.0,20.0
+Susamlı Simit (1 adet, büyük),Yemek,100,280,8.0,10.0,40.0
+Tuzlu Kek/Muffin (Peynirli, 1 adet),Yemek,100,280,12.0,18.0,20.0
+Hindi Eti (Izgara, 1 porsiyon),Yemek,180,220,40.0,5.0,0.0
+İslim Kebabı (Patlıcanlı, 2 adet rulo),Yemek,250,360,25.0,25.0,10.0
+Dana Rosto (1 dilim, sebzeli),Yemek,180,310,35.0,15.0,8.0
+Tavuklu Mantar Sote (1 porsiyon),Yemek,200,270,30.0,12.0,5.0
+Fırında Sebzeli Köfte (3 adet köfte + sebze),Yemek,200,300,28.0,18.0,8.0
+Zeytinyağlı Yaprak Sarma (10 adet, pirinçli),Yemek,180,200,5.0,12.0,25.0
+Arnavut Ciğeri (1 porsiyon, kızartma),150,380,30.0,25.0,5.0
+Mantar Sote (Etsiz, 1 porsiyon),200,150,8.0,10.0,8.0
+Misket Köfte (Sulu, 1 porsiyon),250,290,20.0,15.0,15.0
+Patlıcan Kebabı (2 adet, közlenmiş patlıcanlı),250,340,30.0,22.0,8.0
+Yoğurtlu Semizotu (1 porsiyon),200,130,5.0,8.0,10.0
+Mercimek Çorbası (Ana yemek boy, 1 kase),300,180,10.0,5.0,25.0
+Tuzlu Makarna (Sade, 1 porsiyon),200,250,8.0,5.0,45.0
+Tavuklu Makarna Salatası (1 porsiyon),200,320,20.0,15.0,30.0
+Çay (Siyah, Şekersiz, 1 bardak),İçecek,150,2,0.0,0.0,0.5
+Sıcak Çay (2 küp şekerli, 1 bardak),İçecek,150,35,0.0,0.0,9.0
+Yeşil Çay (Sade, 1 fincan),İçecek,200,0,0.0,0.0,0.0
+Yeşil Çay (Ballı & Limonlu, 1 fincan),İçecek,200,20,0.0,0.0,5.0
+Ihlamur (Bal ve limonlu, 1 fincan),İçecek,200,50,0.0,0.0,12.0
+Bitki Çayı (Kuşburnu/Nane vb., Sade, 1 fincan),İçecek,200,0,0.0,0.0,0.0
+Ice Tea (Şeftali/Limon, Normal, 1 kutu),İçecek,330,80,0.0,0.0,20.0
+Ice Tea (Şekersiz/Zero, 1 kutu),İçecek,330,5,0.0,0.0,1.0
+Sütlü Çay (Az şekerli, 1 fincan),İçecek,200,80,3.0,3.0,10.0
+Chai Latte (Normal, 1 fincan),İçecek,300,240,8.0,10.0,30.0
+Türk Kahvesi (Sade, 1 fincan),İçecek,60,10,1.0,1.0,1.0
+Türk Kahvesi (Orta şekerli, 1 fincan),İçecek,60,25,1.0,1.0,3.0
+Filtre Kahve (Sade, 1 fincan),İçecek,200,5,0.5,0.0,1.0
+Americano (Sade, 1 fincan),İçecek,200,5,0.5,0.0,1.0
+Espresso (Tek Shot),İçecek,30,2,0.1,0.0,0.2
+Latte (Yağlı süt ile, 1 fincan),İçecek,250,150,8.0,8.0,12.0
+Cappuccino (Yağlı süt ile, 1 fincan),İçecek,200,100,6.0,5.0,8.0
+Mocha (Kremalı ve Şekerli, 350ml),İçecek,350,380,10.0,18.0,45.0
+Sütlü Kahve (Şekersiz, 1 fincan),İçecek,200,60,3.0,3.0,5.0
+Sıcak Çikolata (Sütlü, 1 fincan),İçecek,200,200,7.0,10.0,20.0
+Soğuk Kahve (Sütlü/Şekerli, 1 bardak),İçecek,300,150,5.0,5.0,25.0
+Frappuccino (Kremalı, Orta boy),İçecek,350,280,5.0,10.0,45.0
+Kremalı Kahve (Şekerli, büyük boy),İçecek,350,350,10.0,20.0,35.0
+Protein Shake (Kahveli, Hazır şişe),İçecek,330,180,25.0,5.0,10.0
+Cold Brew (Sade, 300 ml),İçecek,300,5,0.5,0.0,1.0
+Kola (Normal, 1 kutu),İçecek,330,140,0.0,0.0,35.0
+Kola (Şekersiz/Zero, 1 kutu),İçecek,330,2,0.0,0.0,0.5
+Gazlı İçecek (Meyveli, Normal, 1 kutu),İçecek,330,150,0.0,0.0,38.0
+Meyveli Soda (Normal, 1 şişe),İçecek,200,70,0.0,0.0,18.0
+Maden Suyu (Sade, 1 şişe),İçecek,200,0,0.0,0.0,0.0
+Enerji İçeceği (Normal, 1 kutu),İçecek,250,110,0.0,0.0,27.0
+Enerji İçeceği (Şekersiz, 1 kutu),İçecek,250,10,0.0,0.0,2.0
+Hazır Vişne Suyu (Şekerli, 1 kutu),İçecek,200,100,0.0,0.0,25.0
+Meyve Nektarı (Şeftali/Kayısı, 1 kutu),İçecek,200,120,0.0,0.0,30.0
+Ayran (Orta boy/Kutu),İçecek,200,60,4.0,3.0,5.0
+Kefir (Sade, 1 şişe),İçecek,200,100,6.0,4.0,8.0
+Şalgam Suyu (Acılı/Acısız, 1 şişe),İçecek,200,15,1.0,0.0,3.0
+Limonata (Hazır şişe, şekerli),İçecek,250,150,0.5,0.0,38.0
+Taze Sıkılmış Portakal Suyu (1 bardak),İçecek,200,90,1.0,0.0,21.0
+Domates Suyu (Sade, 1 bardak),İçecek,200,40,2.0,0.0,8.0
+Boza (1 bardak),İçecek,200,240,6.0,1.0,50.0
+Komposto/Hoşaf (Meyveli, orta tatlı, 1 kase),İçecek,200,150,1.0,0.0,38.0
+Geleneksel Şerbet (Gül, demirhindi, 1 bardak),İçecek,200,160,0.0,0.0,40.0
+Şıra (Üzüm, 1 bardak),İçecek,200,150,1.0,0.0,37.0
+Nar Ekşisi Şerbeti (Seyreltilmiş, 1 bardak),İçecek,200,100,0.0,0.0,25.0
+Smoothie (Meyveli/Ortalama, 300ml),İçecek,300,220,5.0,3.0,45.0
+Salep (Orta şekerli, 1 fincan),İçecek,200,180,6.0,8.0,22.0
+Süt (Yarım Yağlı, 1 bardak),İçecek,200,90,6.0,3.0,9.0
+Sıcak Süt (Ballı, 1 bardak),İçecek,200,140,6.0,3.0,22.0
+Protein Shake (Toz + Su, Ortalama),İçecek,300,150,30.0,2.0,5.0
+Taze Sıkılmış Greyfurt Suyu (1 bardak),İçecek,200,80,1.0,0.0,19.0
+Taze Sıkılmış Yeşil Elma Suyu (1 bardak),İçecek,200,100,0.5,0.0,24.0
+Badem Sütü (Sade/Şekersiz, 1 bardak),İçecek,200,40,1.0,3.0,2.0
+Yulaf Sütü (Sade/Barista, 1 bardak),İçecek,200,120,4.0,5.0,16.0
+Matcha Latte (Sütlü/Şekersiz, 250ml),İçecek,250,90,6.0,5.0,6.0
+Macchiato (Yağlı süt ile, 1 fincan),İçecek,100,50,3.0,3.0,4.0
+Iced Americano (Sade, 300 ml),İçecek,300,5,0.5,0.0,1.0
+Sıcak Elma Suyu (Tarçınlı, 1 fincan),İçecek,200,110,0.0,0.0,27.0
+Muzlu Süt (Hazır/Paketli, 200ml),İçecek,200,180,7.0,5.0,28.0
+Kakao (Sütlü, şekersiz, 1 fincan),İçecek,200,110,7.0,5.0,10.0
+Meyveli Milkshake (Kremasız, Ortalama),İçecek,300,280,10.0,10.0,40.0
+Taze Sıkılmış Sebze Suyu (Havuç, Pancar, vb.),İçecek,200,70,2.0,0.0,16.0
+İşkembe Çorbası (İçecek alternatifi, 1 kase),İçecek,250,150,15.0,8.0,3.0
+Ev Yapımı Ayran (Tuzlu, 1 bardak),İçecek,200,70,5.0,4.0,5.0
+Zerdeçal Latte (Sütlü, şekersiz, 250ml),İçecek,250,130,7.0,6.0,12.0
+Soğuk Algınlığı İçeceği (Hazır toz, sıcak su),İçecek,200,50,0.0,0.0,12.0
+Detoks Suyu (Meyve/sebze dilimli, sade su),İçecek,300,5,0.0,0.0,1.0
+Filtre Kahve (Sütlü/Şekerli, 200ml),İçecek,200,120,6.0,6.0,12.0
+Türk Kahvesi (Şekerli, 1 fincan),İçecek,60,40,1.0,1.0,7.0
+Kremalı Soda (Root Beer/Dr. Pepper vb., 1 kutu),İçecek,330,160,0.0,0.0,40.0
+Limonlu Soda (Sade, 200 ml),İçecek,200,50,0.0,0.0,12.0
+Taze Sıkılmış Yeşil Sebze Suyu (Ispanak, Maydanoz, vb.),İçecek,200,40,1.5,0.0,9.0
+Köpüklü Ayran (Yayık/Geleneksel, 250 ml),İçecek,250,90,6.0,5.0,7.0
+Kola Light/Zero (Büyük Boy, 500 ml),İçecek,500,5,0.0,0.0,1.0
+Sıcak Sütlü Kahve (Tatlandırıcılı, 1 fincan),İçecek,200,70,4.0,3.0,8.0
+Meyve Özlü İçecek (Az şekerli, 200 ml),İçecek,200,50,0.5,0.0,12.0
+Aromalı Maden Suyu (Şekersiz/Doğal aromalı, 200 ml),İçecek,200,0,0.0,0.0,0.0
+Çay (Siyah, Şekersiz, 1 bardak),İçecek,150,2,0.0,0.0,0.5
+Su (1 bardak),İçecek,200,0,0.0,0.0,0.0
+Elma (Orta boy, kabuklu),Meyve,150,80,0.5,0.3,22.0
+Muz (Orta boy),Meyve,120,105,1.3,0.3,27.0
+Portakal (Orta boy),Meyve,150,70,1.0,0.2,18.0
+Mandalina (1 adet, orta),Meyve,70,37,0.5,0.1,9.0
+Çilek (1 adet, büyük),Meyve,15,5,0.1,0.0,1.2
+Kiraz (1 adet),Meyve,5,3,0.0,0.0,0.7
+Üzüm (1 adet, orta),Meyve,3,2,0.0,0.0,0.5
+Karpuz (1 büyük dilim),Meyve,300,90,1.8,0.6,23.0
+Kavun (1 kalın dilim),Meyve,200,60,1.0,0.4,15.0
+Şeftali (Orta boy),Meyve,150,60,1.5,0.4,15.0
+Kayısı (1 adet, taze),Meyve,30,14,0.4,0.1,3.0
+İncir (1 adet, taze),Meyve,50,37,0.4,0.1,9.5
+Nar (10 adet tane, yaklaşık 1 porsiyon),Meyve,10,8,0.1,0.0,2.0
+Kivi (1 adet, orta boy),Meyve,75,45,0.9,0.4,10.5
+Ananas (1 ince dilim),Meyve,100,50,0.5,0.1,13.0
+Mango (Yarım adet),Meyve,150,95,1.5,0.6,25.0
+Armut (Orta boy),Meyve,150,85,0.8,0.2,22.0
+Greyfurt (Yarım adet),Meyve,150,60,1.2,0.2,15.0
+Ayva (Yarım adet),Meyve,150,75,0.5,0.1,20.0
+Erik (1 adet, can erik),Meyve,10,5,0.1,0.0,1.2
+Yeşil Erik (1 adet),Meyve,10,5,0.1,0.0,1.2
+Hurma (1 adet, kuru),Meyve,8,23,0.2,0.0,6.0
+Avokado (Yarım adet, çekirdeksiz),Meyve,100,160,2.0,14.0,9.0
+Ahududu (1 adet),Meyve,2,1,0.0,0.0,0.2
+Yaban Mersini (1 adet),Meyve,1,1,0.0,0.0,0.2
+Böğürtlen (1 adet),Meyve,2,1,0.0,0.0,0.2
+Limon (Yarım adet, sıkılmış),Meyve,50,12,0.2,0.1,4.0
+Trabzon Hurması (Cennet Meyvesi, 1 adet),Meyve,150,118,0.8,0.4,31.0
+Vişne (1 adet),Meyve,5,3,0.0,0.0,0.7
+Dut (1 adet),Meyve,3,2,0.0,0.0,0.5
+Şeftali (Nektarin, 1 adet),Meyve,150,65,1.5,0.4,16.0
+Kızılcık (1 adet, taze),Meyve,3,0.5,0.0,0.0,0.1
+İncir (Kuru, 1 adet),Meyve,20,50,0.5,0.2,13.0
+Kayısı (Kuru, 1 adet),Meyve,10,22,0.3,0.0,5.5
+Papaya (Yarım adet),Meyve,150,60,1.0,0.4,15.0
+Misket Limonu (1 adet),Meyve,50,15,0.5,0.1,5.0
+Greyfurt (Kan Portakalı, yarım adet),Meyve,150,75,1.5,0.3,18.0
+Yıldız Meyvesi (Karambola, 1 adet),Meyve,100,31,0.5,0.3,7.0
+Passion Fruit (Çarkıfelek, 1 adet),Meyve,50,48,1.0,0.4,11.5
+Mürdüm Eriği (1 adet, taze),Meyve,20,10,0.2,0.0,2.6
+Kaktüs Meyvesi (Frenk İnciri, 1 adet),Meyve,100,41,0.7,0.5,9.0
+Hindistan Cevizi (Et kısmı, 50g),Meyve,50,175,1.5,16.5,8.0
+Hurma (Taze, 1 adet),Meyve,25,70,0.5,0.1,18.0
+Ananas (Kurutulmuş, 2 dilim),Meyve,30,90,0.5,0.1,23.0
+Kızılcık (Kurutulmuş, 1 yemek kaşığı),Meyve,10,30,0.0,0.0,8.0
+Dut (Kuru, 1 yemek kaşığı),Meyve,15,45,0.5,0.1,11.0
+Kuşburnu (1 adet),Meyve,5,4,0.0,0.0,1.0
+Yenidünya (Malta Eriği, 1 adet),Meyve,35,16,0.1,0.0,4.2
+Karadut (1 adet),Meyve,3,2,0.0,0.0,0.5
+Bektaşi Üzümü (1 adet),Meyve,5,2,0.0,0.0,0.5
+Salepgiller (Yaban Armudu, 1 adet),Meyve,100,50,0.5,0.1,13.0
+İğde (1 adet, kuru),Meyve,2,5.5,0.0,0.0,1.3
+Pitaya (Ejder Meyvesi, Yarım adet),Meyve,150,90,2.0,0.5,20.0
+Passion Fruit (Mor/Büyük, 1 adet),Meyve,80,70,2.0,0.5,17.0
+Pomelo (1/4 adet),Meyve,150,60,1.0,0.1,15.0
+Muz (Kırmızı, 1 adet),Meyve,120,110,1.5,0.4,28.0
+Keçiboynuzu (1 adet, kuru),Meyve,10,22,0.4,0.1,5.0
+Muşmula (1 adet, taze),Meyve,15,8,0.1,0.0,2.0
+Meyve Salatası (Karışık, 1 kase, ortalama),Meyve,200,120,2.0,0.5,30.0
+Salepgiller (Yaban Armudu, Kuru, 2 adet),Meyve,30,80,0.3,0.1,21.0
+Kaju Meyvesi (1 adet),Meyve,80,34,0.5,0.1,9.0
+Acı Kavun (Kırkağaç, 1 ince dilim),Meyve,100,30,0.8,0.1,7.0
